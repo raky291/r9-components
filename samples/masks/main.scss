@@ -1,2 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
+
+.view {
+    img,
+    video {
+        height: 500px;
+        object-fit: cover;
+    }
+}
