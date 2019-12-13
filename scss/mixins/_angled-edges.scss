@@ -1,0 +1,6 @@
+@mixin r9-make-angled-edges($top-left, $top-right, $bottom-left, $bottom-right) {
+    $calc-bottom-left: if($bottom-left == 0, 100%, calc(100% - #{$bottom-left}));
+    $calc-bottom-right: if($bottom-right == 0, 100%, calc(100% - #{$bottom-right}));
+
+    clip-path: polygon(0 $top-left, 100% $top-right, 100% $calc-bottom-right, 0 $calc-bottom-left);
+}

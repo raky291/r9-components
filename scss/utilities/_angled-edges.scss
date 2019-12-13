@@ -1,0 +1,23 @@
+.r9-angle-top-left {
+    @include r9-make-angled-edges(2vw, 0, 0, 0);
+}
+
+.r9-angle-top-right {
+    @include r9-make-angled-edges(0, 2vw, 0, 0);
+}
+
+.r9-angle-bottom-left {
+    @include r9-make-angled-edges(0, 0, 2vw, 0);
+}
+
+.r9-angle-bottom-right {
+    @include r9-make-angled-edges(0, 0, 0, 2vw);
+}
+
+.r9-angle-both-left {
+    @include r9-make-angled-edges(2vw, 0, 2vw, 0);
+}
+
+.r9-angle-both-right {
+    @include r9-make-angled-edges(0, 2vw, 0, 2vw);
+}
