@@ -1,8 +1,7 @@
 $r9-overlay-colors: () !default;
 $r9-overlay-colors: map-merge(
     (
-        'gray': $gray-600,
-        'dark': $gray-800
+        'dark': $black
     ),
     $r9-overlay-colors
 );
@@ -10,9 +9,8 @@ $r9-overlay-colors: map-merge(
 $r9-overlay-opacity: () !default;
 $r9-overlay-opacity: map-merge(
     (
-        '15': 0.15,
-        '30': 0.3,
-        '45': 0.45
+        '25': 0.25,
+        '50': 0.5
     ),
     $r9-overlay-opacity
 );

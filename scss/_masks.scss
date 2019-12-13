@@ -1,11 +1,7 @@
-// https://css-tricks.com/design-considerations-text-images/
-
-// overlay
-
-.view {
+.r9-view {
     position: relative;
 
-    .mask {
+    .r9-mask {
         position: absolute;
         top: 0;
         right: 0;
