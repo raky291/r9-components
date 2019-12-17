@@ -1,3 +1,59 @@
+$r9-angled-edges-spacer: 2vw !default;
+$r9-angled-edges: () !default;
+$r9-angled-edges: map-merge(
+    (
+        'tl': (
+            $r9-angled-edges-spacer,
+            0,
+            0,
+            0
+        ),
+        'tr': (
+            0,
+            $r9-angled-edges-spacer,
+            0,
+            0
+        ),
+        'bl': (
+            0,
+            0,
+            $r9-angled-edges-spacer,
+            0
+        ),
+        'br': (
+            0,
+            0,
+            0,
+            $r9-angled-edges-spacer
+        ),
+        'tl-bl': (
+            $r9-angled-edges-spacer,
+            0,
+            $r9-angled-edges-spacer,
+            0
+        ),
+        'tl-br': (
+            $r9-angled-edges-spacer,
+            0,
+            0,
+            $r9-angled-edges-spacer
+        ),
+        'tr-bl': (
+            0,
+            $r9-angled-edges-spacer,
+            $r9-angled-edges-spacer,
+            0
+        ),
+        'tr-br': (
+            0,
+            $r9-angled-edges-spacer,
+            0,
+            $r9-angled-edges-spacer
+        )
+    ),
+    $r9-angled-edges
+);
+
 $r9-overlay-colors: () !default;
 $r9-overlay-colors: map-merge(
     (

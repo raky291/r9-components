@@ -1,23 +1,13 @@
-.r9-angle-top-left {
-    @include r9-make-angled-edges(2vw, 0, 0, 0);
+@each $key, $value in $r9-angled-edges {
+    .r9-angled-edge-#{$key} {
+        @include r9-make-angled-edge(nth($value, 1), nth($value, 2), nth($value, 3), nth($value, 4));
+    }
 }
 
-.r9-angle-top-right {
-    @include r9-make-angled-edges(0, 2vw, 0, 0);
+.r9-angled-edge-mt {
+    margin-top: -($r9-angled-edges-spacer);
 }
 
-.r9-angle-bottom-left {
-    @include r9-make-angled-edges(0, 0, 2vw, 0);
-}
-
-.r9-angle-bottom-right {
-    @include r9-make-angled-edges(0, 0, 0, 2vw);
-}
-
-.r9-angle-both-left {
-    @include r9-make-angled-edges(2vw, 0, 2vw, 0);
-}
-
-.r9-angle-both-right {
-    @include r9-make-angled-edges(0, 2vw, 0, 2vw);
+.r9-angled-edge-mb {
+    margin-bottom: -($r9-angled-edges-spacer);
 }

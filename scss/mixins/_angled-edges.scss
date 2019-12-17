@@ -1,4 +1,4 @@
-@mixin r9-make-angled-edges($top-left, $top-right, $bottom-left, $bottom-right) {
+@mixin r9-make-angled-edge($top-left, $top-right, $bottom-left, $bottom-right) {
     $calc-bottom-left: if($bottom-left == 0, 100%, calc(100% - #{$bottom-left}));
     $calc-bottom-right: if($bottom-right == 0, 100%, calc(100% - #{$bottom-right}));
 
