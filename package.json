@@ -1,7 +1,9 @@
 {
   "name": "r9-components",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel samples/**/*.html"
+  },
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
