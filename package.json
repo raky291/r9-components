@@ -2,7 +2,7 @@
   "name": "r9-components",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel samples/**/*.html"
+    "start": "parcel samples/**/*.html --log-level 4"
   },
   "devDependencies": {
     "bootstrap": "^4.4.1",

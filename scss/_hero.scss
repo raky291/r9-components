@@ -5,3 +5,44 @@
 // hero fill
 // hero body
 // hero overlay
+
+// ----------------------------------------------------------------------------
+
+// text shadow
+// hero fill => img fill
+
+// ----------------------------------------------------------------------------
+
+// .r9-view {
+//     position: relative;
+
+//     .r9-mask {
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//     }
+// }
+
+// .r9-hero {
+//     height: 600px;
+
+//     .r9-hero-cover {
+//         object-fit: cover;
+//     }
+// }
+
+// @each $color-key, $color-value in $r9-overlay-colors {
+//     @each $opacity-key, $opacity-value in $r9-overlay-opacity {
+//         .r9-overlay-#{$color-key}-#{$opacity-key} {
+//             background-color: rgba($color-value, $opacity-value);
+//         }
+//     }
+// }
+
+// hero body
+
+// .modal-sm
+// .modal-lg
+// .modal-xl

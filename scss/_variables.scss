@@ -1,89 +1,89 @@
-$r9-translate-sizes: () !default;
-$r9-translate-sizes: map-merge(
-    (
-        'n20': -20%,
-        'n40': -40%,
-        'n60': -60%,
-        'n80': -80%,
-        'n100': -100%,
-        '20': 20%,
-        '40': 40%,
-        '60': 60%,
-        '80': 80%,
-        '100': 100%
-    ),
-    $r9-translate-sizes
-);
+// $r9-translate-sizes: () !default;
+// $r9-translate-sizes: map-merge(
+//     (
+//         'n20': -20%,
+//         'n40': -40%,
+//         'n60': -60%,
+//         'n80': -80%,
+//         'n100': -100%,
+//         '20': 20%,
+//         '40': 40%,
+//         '60': 60%,
+//         '80': 80%,
+//         '100': 100%
+//     ),
+//     $r9-translate-sizes
+// );
 
-$r9-angled-edges-spacer: 3rem !default;
-$r9-angled-edges: () !default;
-$r9-angled-edges: map-merge(
-    (
-        'tl': (
-            $r9-angled-edges-spacer,
-            0,
-            0,
-            0
-        ),
-        'tr': (
-            0,
-            $r9-angled-edges-spacer,
-            0,
-            0
-        ),
-        'bl': (
-            0,
-            0,
-            $r9-angled-edges-spacer,
-            0
-        ),
-        'br': (
-            0,
-            0,
-            0,
-            $r9-angled-edges-spacer
-        ),
-        'tl-bl': (
-            $r9-angled-edges-spacer,
-            0,
-            $r9-angled-edges-spacer,
-            0
-        ),
-        'tl-br': (
-            $r9-angled-edges-spacer,
-            0,
-            0,
-            $r9-angled-edges-spacer
-        ),
-        'tr-bl': (
-            0,
-            $r9-angled-edges-spacer,
-            $r9-angled-edges-spacer,
-            0
-        ),
-        'tr-br': (
-            0,
-            $r9-angled-edges-spacer,
-            0,
-            $r9-angled-edges-spacer
-        )
-    ),
-    $r9-angled-edges
-);
+// $r9-angled-edges-spacer: 3rem !default;
+// $r9-angled-edges: () !default;
+// $r9-angled-edges: map-merge(
+//     (
+//         'tl': (
+//             $r9-angled-edges-spacer,
+//             0,
+//             0,
+//             0
+//         ),
+//         'tr': (
+//             0,
+//             $r9-angled-edges-spacer,
+//             0,
+//             0
+//         ),
+//         'bl': (
+//             0,
+//             0,
+//             $r9-angled-edges-spacer,
+//             0
+//         ),
+//         'br': (
+//             0,
+//             0,
+//             0,
+//             $r9-angled-edges-spacer
+//         ),
+//         'tl-bl': (
+//             $r9-angled-edges-spacer,
+//             0,
+//             $r9-angled-edges-spacer,
+//             0
+//         ),
+//         'tl-br': (
+//             $r9-angled-edges-spacer,
+//             0,
+//             0,
+//             $r9-angled-edges-spacer
+//         ),
+//         'tr-bl': (
+//             0,
+//             $r9-angled-edges-spacer,
+//             $r9-angled-edges-spacer,
+//             0
+//         ),
+//         'tr-br': (
+//             0,
+//             $r9-angled-edges-spacer,
+//             0,
+//             $r9-angled-edges-spacer
+//         )
+//     ),
+//     $r9-angled-edges
+// );
 
-$r9-overlay-colors: () !default;
-$r9-overlay-colors: map-merge(
-    (
-        'dark': $black
-    ),
-    $r9-overlay-colors
-);
+// $r9-overlay-colors: () !default;
+// $r9-overlay-colors: map-merge(
+//     (
+//         'dark': $black
+//     ),
+//     $r9-overlay-colors
+// );
 
-$r9-overlay-opacity: () !default;
-$r9-overlay-opacity: map-merge(
-    (
-        '25': 0.25,
-        '50': 0.5
-    ),
-    $r9-overlay-opacity
-);
+// $r9-overlay-opacity: () !default;
+// $r9-overlay-opacity: map-merge(
+//     (
+//         '25': 0.25,
+//         '50': 0.5
+//     ),
+//     $r9-overlay-opacity
+// );

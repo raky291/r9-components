@@ -1,7 +1,0 @@
-@each $color-key, $color-value in $r9-overlay-colors {
-    @each $opacity-key, $opacity-value in $r9-overlay-opacity {
-        .r9-overlay-#{$color-key}-#{$opacity-key} {
-            background-color: rgba($color-value, $opacity-value);
-        }
-    }
-}
