@@ -1,0 +1,25 @@
+@mixin underline-from-left() {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid;
+        transition: $transition-base;
+        transform: translateX(-100%);
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        &:after {
+            transform: translateX(0);
+        }
+    }
+}

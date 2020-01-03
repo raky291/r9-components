@@ -1,2 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
+
+#underline-from-left {
+    @include underline-from-left();
+    text-decoration: none !important;
+}
