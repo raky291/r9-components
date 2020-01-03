@@ -1,48 +1,41 @@
-// hero
-// hero sm
-// hero lg
-// hero xl
-// hero fill
-// hero body
-// hero overlay
+// Hero
 
-// ----------------------------------------------------------------------------
+.hero {
+    position: relative;
 
-// text shadow
-// hero fill => img fill
+    .hero-view {
+        display: block;
+        height: $hero-md;
+        width: 100%;
+        object-fit: cover;
+    }
 
-// ----------------------------------------------------------------------------
+    .hero-body {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 15;
+    }
+}
 
-// .r9-view {
-//     position: relative;
+@each $name, $value in $hero-overlays {
+    .hero-overlay-#{$name} {
+        background-color: rgba($black, $value);
+    }
+}
 
-//     .r9-mask {
-//         position: absolute;
-//         top: 0;
-//         right: 0;
-//         bottom: 0;
-//         left: 0;
-//     }
-// }
+.hero-view {
+    &.hero-sm {
+        height: $hero-sm;
+    }
 
-// .r9-hero {
-//     height: 600px;
+    &.hero-lg {
+        height: $hero-lg;
+    }
 
-//     .r9-hero-cover {
-//         object-fit: cover;
-//     }
-// }
-
-// @each $color-key, $color-value in $r9-overlay-colors {
-//     @each $opacity-key, $opacity-value in $r9-overlay-opacity {
-//         .r9-overlay-#{$color-key}-#{$opacity-key} {
-//             background-color: rgba($color-value, $opacity-value);
-//         }
-//     }
-// }
-
-// hero body
-
-// .modal-sm
-// .modal-lg
-// .modal-xl
+    &.hero-xl {
+        height: $hero-xl;
+    }
+}
