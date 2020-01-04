@@ -12,7 +12,7 @@
         left: 0;
         z-index: -1;
         border-bottom: 2px solid;
-        transition: $transition-base;
+        transition: $effect-transition;
         transform: scaleX(0);
         transform-origin: 0 50%;
     }
@@ -38,7 +38,7 @@
         left: 0;
         z-index: -1;
         background-color: $background;
-        transition: $transition-base;
+        transition: $effect-transition;
         transform: scaleX(0);
         transform-origin: 0 50%;
     }
