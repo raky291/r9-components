@@ -10,16 +10,42 @@
         right: 0;
         bottom: 0;
         left: 0;
-        border-bottom: 1px solid;
+        z-index: -1;
+        border-bottom: 2px solid;
         transition: $transition-base;
-        transform: translateX(-100%);
+        transform: scaleX(0);
+        transform-origin: 0 50%;
     }
 
-    &:hover,
-    &:focus,
-    &:active {
+    &:hover {
         &:after {
-            transform: translateX(0);
+            transform: scaleX(1);
+        }
+    }
+}
+
+@mixin sweep-to-right($background) {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $background;
+        transition: $transition-base;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+    }
+
+    &:hover {
+        &:after {
+            transform: scaleX(1);
         }
     }
 }

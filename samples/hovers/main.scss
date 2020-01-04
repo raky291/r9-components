@@ -1,7 +1,21 @@
+$enable-rounded: false;
+$btn-border-width: 2px;
+
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
 
 #underline-from-left {
     @include underline-from-left();
-    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+#sweep-to-right {
+    @include sweep-to-right(theme-color('primary'));
+
+    &:hover {
+        background-color: transparent;
+    }
 }
