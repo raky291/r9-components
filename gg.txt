@@ -1,3 +1,5 @@
+https://cssreference.io/property/transition-timing-function/
+
 <!-- All -->
 <!-- https://www.rno1.com/ -->
 <!-- https://www.emotedigital.com.au/ -->

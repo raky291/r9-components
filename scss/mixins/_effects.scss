@@ -19,7 +19,9 @@
         transform-origin: 0 50%;
     }
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         &:after {
             transform: scaleX(1);
         }
@@ -45,7 +47,12 @@
         transform-origin: 0 50%;
     }
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
+        color: color-yiq($background);
+        background-color: transparent;
+
         &:after {
             transform: scaleX(1);
         }

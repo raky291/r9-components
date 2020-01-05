@@ -50,11 +50,6 @@ $navbar-dark-hover-color: $light;
             @include sweep-to-right(theme-color('light'));
             margin-left: 2rem;
             padding: 1rem 4rem;
-
-            &:hover {
-                color: color-yiq(theme-color('light'));
-                background-color: transparent;
-            }
         }
     }
 }
