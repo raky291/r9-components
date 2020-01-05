@@ -27,6 +27,10 @@ $navbar-dark-hover-color: $white;
 
 // custom
 
+.container {
+    max-width: 90%;
+}
+
 .navbar {
     height: 155px;
 
@@ -43,6 +47,10 @@ $navbar-dark-hover-color: $white;
     }
 }
 
-.container {
-    max-width: 90%;
+.hero {
+    background-color: $black;
+}
+
+#content-section {
+    height: 1000px;
 }

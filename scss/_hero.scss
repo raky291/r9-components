@@ -1,41 +1,46 @@
 // Hero
 
+$hero-title-font-size: 4.375rem !default;
+
 .hero {
     position: relative;
 
+    .hero-body {
+        position: relative;
+        z-index: 20;
+    }
+
     .hero-view {
-        display: block;
-        height: $hero-md;
+        position: absolute;
+        top: 0;
+        height: 100%;
         width: 100%;
         object-fit: cover;
     }
-
-    .hero-body {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 15;
-    }
 }
 
-@each $name, $value in $hero-overlays {
-    .hero-overlay-#{$name} {
-        background-color: rgba($black, $value);
-    }
+.hero-title {
+    font-size: $hero-title-font-size;
 }
 
-.hero-view {
-    &.hero-sm {
-        height: $hero-sm;
-    }
+// @each $name, $value in $hero-overlays {
+//     .hero-overlay-#{$name} {
+//         background-color: rgba($black, $value);
+//     }
+// }
 
-    &.hero-lg {
-        height: $hero-lg;
-    }
+.hero-sm {
+    height: $hero-sm;
+}
 
-    &.hero-xl {
-        height: $hero-xl;
-    }
+.hero-md {
+    height: $hero-md;
+}
+
+.hero-lg {
+    height: $hero-lg;
+}
+
+.hero-xl {
+    height: $hero-xl;
 }
