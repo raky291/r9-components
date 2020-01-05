@@ -1,5 +1,51 @@
 $enable-rounded: false;
 $btn-border-width: 2px;
 
+$zindex-navbar: 1030 !default;
+
+// colors
+
+$white: #fff;
+
+// navbar
+
+$navbar-padding-y: 0;
+$navbar-padding-x: 0;
+
+$navbar-nav-link-padding-x: 2.5rem;
+
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
+
+.navbar-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-navbar;
+}
+
+// custom
+
+.navbar {
+    height: 155px;
+
+    .nav-link {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        span {
+            @include underline-from-left();
+            padding-bottom: 0.25rem;
+        }
+    }
+}
+
+.container {
+    max-width: 90%;
+}
