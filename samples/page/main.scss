@@ -1,11 +1,14 @@
-$enable-rounded: false;
-$btn-border-width: 2px;
-
-$zindex-navbar: 1030 !default;
-
 // colors
 
 $white: #fff;
+
+// options
+
+$enable-rounded: false;
+
+// buttons
+
+$btn-border-width: 2px;
 
 // navbar
 
@@ -17,16 +20,10 @@ $navbar-nav-link-padding-x: 2.5rem;
 $navbar-dark-color: $white;
 $navbar-dark-hover-color: $white;
 
+// imports
+
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
-
-.navbar-absolute {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: $zindex-navbar;
-}
 
 // custom
 
