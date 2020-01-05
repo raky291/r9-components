@@ -1,6 +1,6 @@
 // colors
 
-$white: #fff;
+$light: #f8f9fa;
 
 // options
 
@@ -17,8 +17,8 @@ $navbar-padding-x: 0;
 
 $navbar-nav-link-padding-x: 2.5rem;
 
-$navbar-dark-color: $white;
-$navbar-dark-hover-color: $white;
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $light;
 
 // imports
 
@@ -42,13 +42,21 @@ $navbar-dark-hover-color: $white;
 
         span {
             @include underline-from-left();
+            padding-top: 0.25rem;
             padding-bottom: 0.25rem;
         }
-    }
-}
 
-.hero {
-    background-color: $black;
+        &.btn {
+            @include sweep-to-right(theme-color('light'));
+            margin-left: 2rem;
+            padding: 1rem 4rem;
+
+            &:hover {
+                color: color-yiq(theme-color('light'));
+                background-color: transparent;
+            }
+        }
+    }
 }
 
 #content-section {
