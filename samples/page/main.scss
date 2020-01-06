@@ -40,13 +40,16 @@ $navbar-dark-hover-color: $light;
         text-transform: uppercase;
         letter-spacing: 1px;
 
-        span {
+        &:not(.btn) {
             @include underline-from-left();
-            padding-top: 0.25rem;
-            padding-bottom: 0.25rem;
+
+            span {
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+            }
         }
 
-        &.btn {
+        &.btn-outline-light {
             @include sweep-to-right(theme-color('light'));
             margin-left: 2rem;
             padding: 1rem 4rem;

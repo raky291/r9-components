@@ -1,28 +1,30 @@
 // Effects
 
 @mixin underline-from-left() {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+    span {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
 
-    &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        border-bottom: 2px solid;
-        transition: $effect-transition;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-bottom: 2px solid;
+            transition: $effects-transition;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+        }
     }
 
     &:hover,
     &:focus,
     &:active {
-        &:after {
+        span:after {
             transform: scaleX(1);
         }
     }
@@ -42,7 +44,7 @@
         left: 0;
         z-index: -1;
         background-color: $background;
-        transition: $effect-transition;
+        transition: $effects-transition;
         transform: scaleX(0);
         transform-origin: 0 50%;
     }
