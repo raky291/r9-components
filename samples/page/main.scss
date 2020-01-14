@@ -25,11 +25,7 @@ $navbar-dark-hover-color: $light;
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
 
-// custom
-
-.container {
-    max-width: 90%;
-}
+// navbar
 
 .navbar {
     height: 155px;
@@ -51,10 +47,17 @@ $navbar-dark-hover-color: $light;
 
         &.btn-outline-light {
             @include sweep-to-right(theme-color('light'));
+
             margin-left: 2rem;
             padding: 1rem 4rem;
         }
     }
+}
+
+// containers
+
+.container {
+    max-width: 90%;
 }
 
 #content-section {
