@@ -9,7 +9,7 @@
         height: $hero-md;
     }
 
-    .hero-view {
+    .hero-bg {
         position: absolute;
         top: 0;
         height: 100%;
@@ -36,8 +36,8 @@
     }
 }
 
-@each $name, $value in $hero-overlays {
-    .hero-overlay-#{$name} {
+@each $name, $value in $hero-opacity {
+    .hero-opacity-#{$name} {
         background-color: rgba($black, $value);
     }
 }

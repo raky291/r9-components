@@ -11,13 +11,13 @@ $hero-md: 600px !default;
 $hero-lg: 750px !default;
 $hero-xl: 100vh !default;
 
-$hero-overlays: () !default;
-$hero-overlays: map-merge(
+$hero-opacity: () !default;
+$hero-opacity: map-merge(
     (
         '25': 0.25,
         '50': 0.5
     ),
-    $hero-overlays
+    $hero-opacity
 );
 
 // Navbar
