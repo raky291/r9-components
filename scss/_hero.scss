@@ -6,7 +6,7 @@
     .hero-body {
         position: relative;
         z-index: 20;
-        height: $hero-md;
+        min-height: $hero-md;
     }
 
     .hero-bg {
@@ -24,15 +24,15 @@
 
 .hero-body {
     &.hero-sm {
-        height: $hero-sm;
+        min-height: $hero-sm;
     }
 
     &.hero-lg {
-        height: $hero-lg;
+        min-height: $hero-lg;
     }
 
     &.hero-xl {
-        height: $hero-xl;
+        min-height: $hero-xl;
     }
 }
 
