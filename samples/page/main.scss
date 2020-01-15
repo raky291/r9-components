@@ -6,13 +6,25 @@ $light: #f8f9fa;
 
 $enable-rounded: false;
 
+// grid breakpoints
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xx: 1500px
+);
+
 // grid containers
 
 $container-max-widths: (
     sm: 90%,
     md: 90%,
     lg: 90%,
-    xl: 1440px
+    xl: 90%,
+    xx: 1440px
 );
 
 // buttons
@@ -34,15 +46,17 @@ $navbar-dark-hover-color: $light;
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
 
+// containers
+
+.navbar .container {
+    @include media-breakpoint-up(xx) {
+        max-width: 90%;
+    }
+}
+
 // navbar
 
 .navbar {
-    .container {
-        padding-right: 0;
-        padding-left: 0;
-        min-width: 90%;
-    }
-
     .nav-link {
         font-size: 11px;
         font-weight: 700;
@@ -78,7 +92,7 @@ $navbar-dark-hover-color: $light;
     padding-bottom: 260px;
 }
 
-// containers
+// custom
 
 #content-section {
     height: 1000px;
