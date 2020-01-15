@@ -6,6 +6,15 @@ $light: #f8f9fa;
 
 $enable-rounded: false;
 
+// grid containers
+
+$container-max-widths: (
+    sm: 90%,
+    md: 90%,
+    lg: 90%,
+    xl: 1440px
+);
+
 // buttons
 
 $btn-border-width: 2px;
@@ -28,7 +37,11 @@ $navbar-dark-hover-color: $light;
 // navbar
 
 .navbar {
-    height: 155px;
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        min-width: 90%;
+    }
 
     .nav-link {
         font-size: 11px;
@@ -49,9 +62,13 @@ $navbar-dark-hover-color: $light;
             @include sweep-to-right(theme-color('light'));
 
             margin-left: 2rem;
-            padding: 1rem 4rem;
+            padding: 1.25rem 4rem;
         }
     }
+}
+
+.navbar-dark {
+    height: 155px;
 }
 
 // hero
@@ -62,10 +79,6 @@ $navbar-dark-hover-color: $light;
 }
 
 // containers
-
-.container {
-    max-width: 90%;
-}
 
 #content-section {
     height: 1000px;
