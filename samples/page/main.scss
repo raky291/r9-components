@@ -54,6 +54,12 @@ $navbar-dark-hover-color: $light;
     }
 }
 
+#content-section .container {
+    @media (min-width: 950px) {
+        max-width: 855px;
+    }
+}
+
 // navbar
 
 .navbar {
