@@ -1,8 +1,14 @@
 -------------------------------------------------
 
 improve typography
+define the font weights
 add more spaces
 build the footer
+
+https://rno1.com/privacy-policy
+https://developer.microsoft.com/en-us/fabric#/styles/web/typography
+https://material.io/design/typography/the-type-system.html
+https://github.com/twbs/bootstrap/blob/v4.4.1/scss/_variables.scss
 
 h1: 68px (4.25)
 h2: 48px (3)
