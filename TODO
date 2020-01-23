@@ -1,58 +1,13 @@
 -------------------------------------------------
 
-improve typography
-define the font weights
-add more spaces
-build the footer
+add more spacing (_variables.scss)
+add section spacing (_sections.scss)
+add image effects for hero (_effects.scss?)
+add utilities effects (_effects.scss)
+improve typography (_type.scss)
+add footer component (?)
 
 https://rno1.com/privacy-policy
 https://developer.microsoft.com/en-us/fabric#/styles/web/typography
 https://material.io/design/typography/the-type-system.html
 https://github.com/twbs/bootstrap/blob/v4.4.1/scss/_variables.scss
-
-h1: 68px (4.25)
-h2: 48px (3)
-h3: 32px (2)
-h4: 28px (1.75)
-h5: 24px (1.5)
-h6: 20px (1.25)
-
-lg: 20px (1.25)
-base: 16px (1)
-sm: 14px (0.875)
-
--------------------------------------------------
-
-display1: 96px (6)
-display2: 88px (5.5)
-display3: 72px (4.5)
-display4: 56px (3.5)
-
-h1: 40px (2.5)
-h2: 32px (2)
-h3: 28px (1.75)
-h4: 24px (1.5)
-h5: 20px (1.25)
-h6: 16px (1)
-
-lg: 20px (1.25)
-base: 16px (1)
-sm: 14px (0.875)
-
--------------------------------------------------
-
-display1: 80px (5)
-display2: 72px (4.5)
-display3: 64px (4)
-display4: 56px (3.5)
-
-h1: 48px (3)
-h2: 40px (2.5)
-h3: 32px (2)
-h4: 28px (1.75)
-h5: 24px (1.5)
-h6: 20px (1.25)
-
-lg: 20px (1.25)
-base: 16px (1)
-sm: 14px (0.875)
