@@ -1,11 +1,13 @@
 -------------------------------------------------
 
 add more spacing (_variables.scss)
-add section spacing (_sections.scss)
-add image effects for hero (_effects.scss?)
 add utilities effects (_effects.scss)
+
 improve typography (_type.scss)
+add section spacing (_sections.scss)
 add footer component (?)
+
+add image effects for hero (_effects.scss?)
 
 https://rno1.com/privacy-policy
 https://developer.microsoft.com/en-us/fabric#/styles/web/typography
