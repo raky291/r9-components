@@ -1,0 +1,11 @@
+// Effects
+
+.underline-from-left {
+    @include underline-from-left();
+}
+
+@each $color, $value in $theme-colors {
+    .sweep-to-right-#{$color} {
+        @include sweep-to-right($value);
+    }
+}

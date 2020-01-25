@@ -102,20 +102,15 @@ $navbar-dark-hover-color: $light;
         text-transform: uppercase;
         letter-spacing: 1px;
 
-        &:not(.btn) {
-            @include underline-from-left();
-
-            span {
-                padding-top: 0.25rem;
-                padding-bottom: 0.25rem;
-            }
-        }
-
         &.btn-outline-light {
-            @include sweep-to-right(theme-color('light'));
-
             margin-left: 2rem;
             padding: 1.25rem 4rem;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: $yiq-text-dark;
+            }
         }
     }
 }
