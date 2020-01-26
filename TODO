@@ -1,14 +1,20 @@
 -------------------------------------------------
 
-add more spacing (_variables.scss)
-
-improve typography (_type.scss)
 add section spacing (_sections.scss)
+improve typography (_type.scss)
 add footer component (?)
-
-add image effects for hero (_effects.scss?)
 
 https://rno1.com/privacy-policy
 https://developer.microsoft.com/en-us/fabric#/styles/web/typography
 https://material.io/design/typography/the-type-system.html
 https://github.com/twbs/bootstrap/blob/v4.4.1/scss/_variables.scss
+
+-------------------------------------------------
+add more spacing (_variables.scss)
+
+0.25    // 4px
+0.5     // 8px
+1       // 16px
+1.5     // 24px
+2       // 32px
+3       // 48px
