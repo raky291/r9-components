@@ -6,6 +6,19 @@ $light: #f8f9fa;
 
 $enable-rounded: false;
 
+// spacing
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer * 1,
+    4: $spacer * 1.5,
+    5: $spacer * 2,
+    6: $spacer * 3
+);
+
 // grid breakpoints
 
 $grid-breakpoints: (
