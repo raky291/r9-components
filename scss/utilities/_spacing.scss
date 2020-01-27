@@ -6,12 +6,12 @@
 
         @each $prop, $abbrev in (margin: m, padding: p) {
             @each $size, $length in $large-spacers {
-                .l#{$abbrev}t#{$infix}-#{$size},
-                .l#{$abbrev}y#{$infix}-#{$size} {
+                .l-#{$abbrev}t#{$infix}-#{$size},
+                .l-#{$abbrev}y#{$infix}-#{$size} {
                     #{$prop}-top: $length !important;
                 }
-                .l#{$abbrev}b#{$infix}-#{$size},
-                .l#{$abbrev}y#{$infix}-#{$size} {
+                .l-#{$abbrev}b#{$infix}-#{$size},
+                .l-#{$abbrev}y#{$infix}-#{$size} {
                     #{$prop}-bottom: $length !important;
                 }
             }
