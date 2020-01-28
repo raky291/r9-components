@@ -117,7 +117,7 @@ $navbar-dark-hover-color: $light;
 
         &.btn-outline-light {
             margin-left: 2rem;
-            padding: 1.25rem 4rem;
+            padding: 1rem 4rem;
 
             &:hover,
             &:focus,
@@ -132,19 +132,8 @@ $navbar-dark-hover-color: $light;
     height: 155px;
 }
 
-// custom
+// content
 
-#content-section {
-    // h2 {
-    //     font-size: 2.25rem; // element / css class
-    //     text-transform: capitalize; // css class
-    //     margin-top: 6rem; // use spacing
-    //     margin-bottom: 4rem; // use spacing
-    // }
-
-    // p {
-    //     font-size: 1.25rem; // use lead / font size class
-    //     line-height: 2.2; // create line height classes
-    //     margin-bottom: 4rem; // use spacing
-    // }
+#content-section .lead {
+    line-height: 2.25;
 }
