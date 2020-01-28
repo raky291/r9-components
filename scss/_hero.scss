@@ -38,10 +38,12 @@
     &.hero-xl {
         min-height: $hero-xl;
     }
-}
 
-@each $name, $value in $hero-opacity {
-    .hero-opacity-#{$name} {
-        background-color: rgba($black, $value);
+    &.hero-bg-light {
+        background-color: $hero-bg-light;
+    }
+
+    &.hero-bg-dark {
+        background-color: $hero-bg-dark;
     }
 }

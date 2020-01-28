@@ -1,28 +1,28 @@
-// Effects
+// Colors
 
-$effects-transition: transform 0.3s ease-out !default;
+$black: #000 !default;
 
-// Hero
+// Options
 
-$hero-sm: 450px !default;
-$hero-md: 600px !default;
-$hero-lg: 750px !default;
-$hero-xl: 100vh !default;
-
-$hero-opacity: () !default;
-$hero-opacity: map-merge(
-    (
-        '25': 0.25,
-        '50': 0.5
-    ),
-    $hero-opacity
-);
-
-// Navbar
-
-$zindex-navbar: 1030 !default;
+$enable-rounded: false !default;
 
 // Spacing
+
+$spacer: 1rem !default;
+
+$spacers: () !default;
+$spacers: map-merge(
+    (
+        0: 0,
+        1: $spacer * 0.25,
+        2: $spacer * 0.5,
+        3: $spacer * 1,
+        4: $spacer * 1.5,
+        5: $spacer * 2,
+        6: $spacer * 3
+    ),
+    $spacers
+);
 
 $large-spacers: () !default;
 $large-spacers: map-merge(
@@ -39,3 +39,86 @@ $large-spacers: map-merge(
     ),
     $large-spacers
 );
+
+// Grid breakpoints
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xx: 1600px
+) !default;
+
+// Grid containers
+
+$container-max-widths: (
+    sm: 90%,
+    md: 90%,
+    lg: 90%,
+    xl: 90%,
+    xx: 1440px
+) !default;
+
+// Effects
+
+$effects-transition: transform 0.3s ease-out !default;
+
+// Typography
+
+$font-size-base: 1rem !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-black: 900 !default;
+
+$font-weight-regular: $font-weight-normal !default;
+
+$h1-font-size: $font-size-base * 3 !default;
+$h2-font-size: $font-size-base * 2.5 !default;
+$h3-font-size: $font-size-base * 2 !default;
+$h4-font-size: $font-size-base * 1.75 !default;
+$h5-font-size: $font-size-base * 1.5 !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+
+$headings-font-weight: $font-weight-regular !default;
+
+$display1-size: $font-size-base * 5 !default;
+$display2-size: $font-size-base * 4.5 !default;
+$display3-size: $font-size-base * 4 !default;
+$display4-size: $font-size-base * 3.5 !default;
+
+$display1-weight: $font-weight-regular !default;
+$display2-weight: $font-weight-regular !default;
+$display3-weight: $font-weight-regular !default;
+$display4-weight: $font-weight-regular !default;
+
+$lead-font-size: $font-size-base * 1.25 !default;
+$lead-font-weight: $font-weight-regular !default;
+
+// Buttons
+
+$btn-border-width: 2px !default;
+
+// Z-index
+
+$zindex-absolute: 1010 !default;
+
+// Navbar
+
+$navbar-padding-y: 0 !default;
+$navbar-padding-x: 0 !default;
+
+// Hero
+
+$hero-sm: 450px !default;
+$hero-md: 600px !default;
+$hero-lg: 750px !default;
+$hero-xl: 100vh !default;
+
+$hero-bg-light: rgba($black, 0.25) !default;
+$hero-bg-dark: rgba($black, 0.5) !default;

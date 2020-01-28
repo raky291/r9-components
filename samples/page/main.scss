@@ -2,85 +2,7 @@
 
 $light: #f8f9fa;
 
-// options
-
-$enable-rounded: false;
-
-// spacing
-
-$spacer: 1rem;
-$spacers: (
-    0: 0,
-    1: $spacer * 0.25,
-    2: $spacer * 0.5,
-    3: $spacer * 1,
-    4: $spacer * 1.5,
-    5: $spacer * 2,
-    6: $spacer * 3
-);
-
-// grid breakpoints
-
-$grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xx: 1600px
-);
-
-// grid containers
-
-$container-max-widths: (
-    sm: 90%,
-    md: 90%,
-    lg: 90%,
-    xl: 90%,
-    xx: 1440px
-);
-
-// typography
-
-$font-size-base: 1rem;
-
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
-$font-weight-black: 900;
-
-$font-weight-regular: $font-weight-normal;
-
-$h1-font-size: $font-size-base * 3;
-$h2-font-size: $font-size-base * 2.5;
-$h3-font-size: $font-size-base * 2;
-$h4-font-size: $font-size-base * 1.75;
-$h5-font-size: $font-size-base * 1.5;
-$h6-font-size: $font-size-base * 1.25;
-
-$headings-font-weight: $font-weight-regular;
-
-$display1-size: $font-size-base * 5;
-$display2-size: $font-size-base * 4.5;
-$display3-size: $font-size-base * 4;
-$display4-size: $font-size-base * 3.5;
-
-$display1-weight: $font-weight-regular;
-$display2-weight: $font-weight-regular;
-$display3-weight: $font-weight-regular;
-$display4-weight: $font-weight-regular;
-
-$lead-font-size: $font-size-base * 1.25;
-$lead-font-weight: $font-weight-regular;
-
-// buttons
-
-$btn-border-width: 2px;
-
 // navbar
-
-$navbar-padding-y: 0;
-$navbar-padding-x: 0;
 
 $navbar-nav-link-padding-x: 2.5rem;
 
@@ -89,6 +11,7 @@ $navbar-dark-hover-color: $light;
 
 // imports
 
+@import '../../scss/variables';
 @import '~bootstrap/scss/bootstrap';
 @import '../../scss/r9-components';
 
