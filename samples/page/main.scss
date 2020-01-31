@@ -60,3 +60,15 @@ $navbar-dark-hover-color: $light;
 #content-section .lead {
     line-height: 2.25;
 }
+
+// footer
+
+#wrapper-footer {
+    .btn-outline-light {
+        padding: 1rem 4rem;
+        font-size: $font-size-base * 0.75;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
