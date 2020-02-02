@@ -74,6 +74,14 @@ $navbar-dark-hover-color: $light;
         }
     }
 
+    #social-icons-section {
+        .rounded-circle {
+            background-color: #222326;
+            height: 54px;
+            width: 54px;
+        }
+    }
+
     #legal-section {
         font-size: $font-size-base * 0.75;
     }
