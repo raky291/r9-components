@@ -63,26 +63,27 @@ $navbar-dark-hover-color: $light;
 
 // footer
 
-#wrapper-footer {
-    #call-to-action-section {
-        .btn-outline-light {
-            padding: 1rem 4rem;
-            font-size: $font-size-base * 0.75;
-            font-weight: $font-weight-bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-    }
-
-    #social-icons-section {
-        .rounded-circle {
-            background-color: #222326;
-            height: 54px;
-            width: 54px;
-        }
-    }
-
-    #legal-section {
+#call-to-action-section {
+    .btn-outline-light {
+        padding: 1rem 4rem;
         font-size: $font-size-base * 0.75;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
+}
+
+#social-icons-section {
+    .rounded-circle {
+        height: 55px;
+        width: 55px;
+    }
+
+    .fab {
+        font-size: $h5-font-size;
+    }
+}
+
+#legal-section {
+    font-size: $font-size-base * 0.75;
 }
