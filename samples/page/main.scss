@@ -63,6 +63,14 @@ $navbar-dark-hover-color: $light;
 
 // footer
 
+#wrapper-footer {
+    background-color: #181819;
+
+    .border-top {
+        border-color: #252526 !important;
+    }
+}
+
 #call-to-action-section {
     .btn-outline-light {
         padding: 1rem 4rem;
@@ -75,8 +83,9 @@ $navbar-dark-hover-color: $light;
 
 #social-icons-section {
     .rounded-circle {
-        height: 55px;
-        width: 55px;
+        background-color: #222326;
+        height: 54px;
+        width: 54px;
     }
 
     .fab {
