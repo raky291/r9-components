@@ -72,6 +72,10 @@ $navbar-dark-hover-color: $light;
 }
 
 #call-to-action-section {
+    .hero {
+        transform: translateY(-110px);
+    }
+
     .btn-outline-light {
         padding: 1rem 4rem;
         font-size: $font-size-base * 0.75;
