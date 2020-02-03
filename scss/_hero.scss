@@ -5,7 +5,7 @@
 
     .hero-body {
         position: relative;
-        z-index: 20;
+        z-index: $zindex-hero;
         min-height: $hero-md;
     }
 

@@ -45,12 +45,6 @@ $navbar-dark-hover-color: $light;
         &.btn-outline-light {
             margin-left: 2rem;
             padding: 1rem 4rem;
-
-            &:hover,
-            &:focus,
-            &:active {
-                color: $yiq-text-dark;
-            }
         }
     }
 }
@@ -77,7 +71,7 @@ $navbar-dark-hover-color: $light;
 
 #call-to-action-section {
     .hero {
-        transform: translateY(-110px);
+        transform: translateY(-120px);
     }
 
     .btn-outline-light {

@@ -1,6 +1,9 @@
 // Effects
 
 @mixin underline-from-left() {
+    z-index: $zindex-effects;
+    transition: $effects-transition;
+
     span {
         position: relative;
         display: inline-block;
@@ -30,10 +33,12 @@
     }
 }
 
-@mixin sweep-to-right($background) {
+@mixin sweep-to-right($color) {
     position: relative;
     display: inline-block;
     overflow: hidden;
+    z-index: $zindex-effects;
+    transition: $effects-transition;
 
     &:after {
         content: '';
@@ -43,7 +48,7 @@
         bottom: 0;
         left: 0;
         z-index: -1;
-        background-color: $background;
+        background-color: $color;
         transition: $effects-transition;
         transform: scaleX(0);
         transform-origin: 0 50%;
@@ -52,8 +57,8 @@
     &:hover,
     &:focus,
     &:active {
-        color: color-yiq($background);
-        background-color: transparent;
+        color: color-yiq($color) !important;
+        background-color: transparent !important;
 
         &:after {
             transform: scaleX(1);

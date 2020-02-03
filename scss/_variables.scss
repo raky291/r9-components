@@ -63,7 +63,7 @@ $container-max-widths: (
 
 // Effects
 
-$effects-transition: transform 0.3s ease-out !default;
+$effects-transition: all 0.3s ease-out !default;
 
 // Typography
 
@@ -106,6 +106,8 @@ $btn-border-width: 2px !default;
 
 // Z-index
 
+$zindex-hero: 100 !default;
+$zindex-effects: 200 !default;
 $zindex-absolute: 1010 !default;
 
 // Navbar
