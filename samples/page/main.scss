@@ -62,7 +62,7 @@ $navbar-dark-hover-color: $light;
 // footer
 
 #wrapper-footer {
-    background-color: darken($gray-900, 10%);
+    background-color: $black;
 
     .hero {
         transform: translateY(-120px);
