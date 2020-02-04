@@ -1,0 +1,11 @@
+// Colored links
+
+@each $color, $value in $theme-colors {
+    .hover-#{$color} {
+        &:hover,
+        &:focus,
+        &:active {
+            color: $value;
+        }
+    }
+}
