@@ -4,7 +4,7 @@ $light: #f8f9fa;
 
 // typography
 
-$font-family-base: 'Montserrat', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
 
 // navbar
 
@@ -62,7 +62,17 @@ $navbar-dark-hover-color: $light;
 // footer
 
 #wrapper-footer {
-    background-color: darken($gray-900, 5%);
+    background-color: darken($gray-900, 10%);
+
+    .hero {
+        transform: translateY(-120px);
+    }
+
+    .rounded-circle {
+        background-color: $gray-900;
+        height: 54px;
+        width: 54px;
+    }
 
     .border-top {
         border-color: $gray-900 !important;
@@ -70,10 +80,6 @@ $navbar-dark-hover-color: $light;
 }
 
 #call-to-action-section {
-    .hero {
-        transform: translateY(-120px);
-    }
-
     .btn-outline-light {
         padding: 1rem 4rem;
         font-size: $font-size-base * 0.75;
@@ -84,12 +90,6 @@ $navbar-dark-hover-color: $light;
 }
 
 #social-icons-section {
-    .rounded-circle {
-        background-color: $gray-900;
-        height: 54px;
-        width: 54px;
-    }
-
     .fab {
         font-size: $h5-font-size;
     }
