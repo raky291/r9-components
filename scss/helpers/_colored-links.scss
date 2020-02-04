@@ -2,6 +2,8 @@
 
 @each $color, $value in $theme-colors {
     a.hover-#{$color} {
+        transition: $transition-base;
+
         &:hover,
         &:focus,
         &:active {
