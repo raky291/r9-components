@@ -1,6 +1,7 @@
 // colors
 
-$light: #f8f9fa;
+$gray-100: #f8f9fa;
+$gray-900: #212529;
 
 // typography
 
@@ -10,8 +11,11 @@ $font-family-base: 'Roboto', sans-serif;
 
 $navbar-nav-link-padding-x: 2.5rem;
 
-$navbar-dark-color: $light;
-$navbar-dark-hover-color: $light;
+$navbar-dark-color: $gray-100;
+$navbar-dark-hover-color: $gray-100;
+
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $gray-900;
 
 // imports
 
@@ -42,7 +46,7 @@ $navbar-dark-hover-color: $light;
         text-transform: uppercase;
         letter-spacing: 1px;
 
-        &.btn-outline-light {
+        &.btn {
             margin-left: 2rem;
             padding: 1rem 4rem;
         }
@@ -51,6 +55,10 @@ $navbar-dark-hover-color: $light;
 
 .navbar-dark {
     height: 155px;
+}
+
+.navbar-light {
+    height: 100px;
 }
 
 // content
