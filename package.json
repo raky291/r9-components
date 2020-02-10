@@ -2,15 +2,23 @@
   "name": "r9-components",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel samples/**/*.html --log-level 4",
-    "prettier": "prettier --ignore-path .gitignore --write **/*.{html,js,json,scss,yml}"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --ignore-path .gitignore --write **/*.{html,js,json,scss,yml}",
+    "start": "parcel samples/**/*.html"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "bootstrap": "4.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "parcel-bundler": "^1.12.4",
-    "popper.js": "^1.16.0",
+    "popper.js": "^1.16.1",
     "prettier": "^1.19.1"
   }
 }
