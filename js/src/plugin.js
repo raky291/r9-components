@@ -1,33 +1,33 @@
 import $ from 'jquery';
 
-function jQueryPlugin(NAME, DATA_KEY, Constructor) {
-    const interface = function(config) {
-        return this.each(function() {
+function Plugin(NAME, DATA_KEY, CONSTRUCTOR) {
+    const jQueryInterface = option => {
+        return this.each(() => {
             let data = $(this).data(DATA_KEY);
-            const _config = typeof config === 'object' && config;
+            const options = typeof option === 'object' && option;
 
             if (!data) {
-                data = new Constructor(this, _config);
+                data = new CONSTRUCTOR(this, options);
                 $(this).data(DATA_KEY, data);
             }
 
-            if (typeof config === 'string') {
-                if (typeof data[config] === 'undefined') {
-                    throw new TypeError(`No method named "${config}"`);
+            if (typeof option === 'string') {
+                if (typeof data[option] === 'undefined') {
+                    throw new TypeError(`No method named "${option}"`);
                 }
 
-                data[config]();
+                data[option]();
             }
         });
     };
 
     const JQUERY_NO_CONFLICT = $.fn[NAME];
-    $.fn[NAME] = interface;
-    $.fn[NAME].Constructor = Constructor;
+    $.fn[NAME] = jQueryInterface;
+    $.fn[NAME].Constructor = CONSTRUCTOR;
     $.fn[NAME].noConflict = () => {
         $.fn[NAME] = JQUERY_NO_CONFLICT;
-        return interface;
+        return jQueryInterface;
     };
 }
 
-export { jQueryInterface, jQueryPlugin };
+export default Plugin;

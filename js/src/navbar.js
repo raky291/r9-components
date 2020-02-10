@@ -1,12 +1,12 @@
 import $ from 'jquery';
 
 class Navbar {
-    constructor(element, options) {}
+    // constructor(element, options) {}
 }
 
 $(window).on('load', () => {
     $('[data-toggle="navbar"]').each(() => {
-        var $this = $(this);
+        // var $this = $(this);
     });
 });
 
