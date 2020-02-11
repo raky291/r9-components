@@ -1,37 +1,23 @@
 import $ from 'jquery';
-import Plugin from './plugin';
 
-const NAME = 'navbar';
-const DATA_KEY = 'r9.navbar';
-// const VERSION = '4.4.1';
-// const EVENT_KEY = `.${DATA_KEY}`;
-// const DATA_API_KEY = '.data-api';
-// const JQUERY_NO_CONFLICT = $.fn[NAME];
-
-const Default = {};
-
-const Event = {
-    LOAD_DATA_API: 'load'
-};
-
-const Selector = {
-    DATA_SPY: '[data-spy="scroll"]'
-};
-
-class Navbar {
-    constructor(element, options) {}
-
-    static get Default() {
-        return Default;
-    }
+function Navbar(element) {
+    let prev = $(window).scrollTop();
+    $(window).on('scroll', () => {
+        const current = $(window).scrollTop();
+        if (prev > current && current > 200) {
+            // show
+            $(element).addClass('show');
+        } else {
+            // hide
+            $(element).removeClass('show');
+        }
+        prev = current;
+    });
 }
 
-Plugin(NAME, DATA_KEY, Navbar);
-
-$(window).on(Event.LOAD_DATA_API, () => {
-    $(Selector.DATA_SPY).each(() => {
-        // var $this = $(this);
+$(window).on('load', () => {
+    $('[data-toggle="navbar"]').each(function() {
+        const $this = $(this);
+        Navbar($this);
     });
 });
-
-export default Navbar;
