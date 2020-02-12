@@ -38,13 +38,17 @@ class Navbar {
     process() {
         const scroll = $(window).scrollTop();
 
-        if ((scroll <= this.options.min && this.options.show) || (scroll > this.options.min && scroll < this.prev)) {
+        if (this.visibility(scroll)) {
             this.show();
         } else {
             this.hide();
         }
 
         this.prev = scroll;
+    }
+
+    visibility(scroll) {
+        return (scroll <= this.options.min && this.options.show) || (scroll > this.options.min && scroll < this.prev);
     }
 }
 
