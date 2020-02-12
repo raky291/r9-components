@@ -1,7 +1,8 @@
 import $ from 'jquery';
 
 const Default = {
-    minScroll: 200
+    min: 200,
+    show: true
 };
 
 const Event = {
@@ -21,7 +22,7 @@ class Navbar {
     constructor(element, options) {
         this.element = element;
         this.options = $.extend({}, Default, options);
-        this.prevScroll = $(window).scrollTop();
+        this.prev = $(window).scrollTop();
 
         $(window).on(Event.SCROLL, () => this.process());
     }
@@ -37,19 +38,19 @@ class Navbar {
     process() {
         const scroll = $(window).scrollTop();
 
-        if (scroll < this.prevScroll && scroll > this.options.minScroll) {
+        if ((scroll <= this.options.min && this.options.show) || (scroll > this.options.min && scroll < this.prev)) {
             this.show();
         } else {
             this.hide();
         }
 
-        this.prevScroll = scroll;
+        this.prev = scroll;
     }
 }
 
 $(window).on(Event.LOAD, () => {
-    $(Selector.DATA_TOGGLE).each(function() {
-        const $this = $(this);
-        Navbar($this);
+    $(Selector.DATA_TOGGLE).each((i, element) => {
+        // eslint-disable-next-line no-new
+        new Navbar(element);
     });
 });
