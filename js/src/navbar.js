@@ -1,22 +1,54 @@
 import $ from 'jquery';
 
-function Navbar(element) {
-    let prev = $(window).scrollTop();
-    $(window).on('scroll', () => {
-        const current = $(window).scrollTop();
-        if (prev > current && current > 200) {
-            // show
-            $(element).addClass('show');
+const Default = {
+    minScroll: 200
+};
+
+const Event = {
+    SCROLL: 'scroll',
+    LOAD: 'load'
+};
+
+const ClassName = {
+    SHOW: 'show'
+};
+
+const Selector = {
+    DATA_TOGGLE: '[data-toggle="navbar"]'
+};
+
+class Navbar {
+    constructor(element, options) {
+        this.element = element;
+        this.options = $.extend({}, Default, options);
+        this.prevScroll = $(window).scrollTop();
+
+        $(window).on(Event.SCROLL, () => this.process());
+    }
+
+    show() {
+        $(this.element).addClass(ClassName.SHOW);
+    }
+
+    hide() {
+        $(this.element).removeClass(ClassName.SHOW);
+    }
+
+    process() {
+        const scroll = $(window).scrollTop();
+
+        if (scroll < this.prevScroll && scroll > this.options.minScroll) {
+            this.show();
         } else {
-            // hide
-            $(element).removeClass('show');
+            this.hide();
         }
-        prev = current;
-    });
+
+        this.prevScroll = scroll;
+    }
 }
 
-$(window).on('load', () => {
-    $('[data-toggle="navbar"]').each(function() {
+$(window).on(Event.LOAD, () => {
+    $(Selector.DATA_TOGGLE).each(function() {
         const $this = $(this);
         Navbar($this);
     });
