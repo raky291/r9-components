@@ -115,6 +115,8 @@ $zindex-absolute: 1010 !default;
 $navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
 
+$navbar-spy-transition: transform 0.4s ease-out !default;
+
 // Hero
 
 $hero-sm: 450px !default;

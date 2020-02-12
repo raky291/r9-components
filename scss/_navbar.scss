@@ -1,0 +1,10 @@
+// Navbar
+
+.navbar-spy {
+    transition: $navbar-spy-transition;
+    transform: translateY(-100%);
+
+    &.show {
+        transform: translateY(0);
+    }
+}

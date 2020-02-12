@@ -15,7 +15,7 @@ const ClassName = {
 };
 
 const Selector = {
-    DATA_TOGGLE: '[data-toggle="navbar"]'
+    DATA_TOGGLE: '[data-spy="navbar"]'
 };
 
 class Navbar {
