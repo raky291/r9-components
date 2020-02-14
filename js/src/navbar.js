@@ -1,4 +1,10 @@
 import $ from 'jquery';
+import Plugin from './plugin';
+
+const NAME = 'navbar';
+const DATA_KEY = `r9.${NAME}`;
+const EVENT_KEY = `.${DATA_KEY}`;
+const DATA_API_KEY = '.data-api';
 
 const Default = {
     min: 200,
@@ -6,8 +12,8 @@ const Default = {
 };
 
 const Event = {
-    SCROLL: 'scroll',
-    LOAD: 'load'
+    SCROLL: `scroll${EVENT_KEY}`,
+    LOAD_DATA_API: `load${EVENT_KEY}${DATA_API_KEY}`
 };
 
 const ClassName = {
@@ -52,9 +58,12 @@ class Navbar {
     }
 }
 
-$(window).on(Event.LOAD, () => {
-    $(Selector.DATA_TOGGLE).each((i, element) => {
-        // eslint-disable-next-line no-new
-        new Navbar(element);
+const plugin = new Plugin(NAME, DATA_KEY, Navbar);
+
+plugin.init();
+
+$(window).on(Event.LOAD_DATA_API, () => {
+    $(Selector.DATA_TOGGLE).each(function() {
+        plugin.instance.call($(this), $(this).data());
     });
 });
