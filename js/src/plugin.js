@@ -1,20 +1,22 @@
 import $ from 'jquery';
 
 class Plugin {
-    constructor(name, dataKey) {
+    constructor(name, key, component) {
         this.name = name;
-        this.dataKey = dataKey;
+        this.key = key;
+        this.component = component;
     }
 
     instance(option) {
         // eslint-disable-next-line func-names
         return this.each(function() {
-            let data = $(this).data(this.dataKey);
+            let data = $(this).data(this.key);
             const options = typeof option === 'object' && option;
 
             if (!data) {
-                data = new ScrollSpy(this, options);
-                $(this).data(this.dataKey, data);
+                // eslint-disable-next-line new-cap
+                data = new this.component(this, options);
+                $(this).data(this.key, data);
             }
 
             if (typeof option === 'string') {
@@ -30,7 +32,7 @@ class Plugin {
     init() {
         const JQUERY_NO_CONFLICT = $.fn[this.name];
         $.fn[this.name] = this.instance;
-        $.fn[this.name].Constructor = this;
+        $.fn[this.name].Constructor = this.component;
         $.fn[this.name].noConflict = () => {
             $.fn[this.name] = JQUERY_NO_CONFLICT;
             return this.instance;
