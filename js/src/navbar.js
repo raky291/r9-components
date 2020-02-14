@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import Plugin from './plugin';
+import plugin from './plugin';
 
 const NAME = 'navbar';
 const DATA_KEY = `r9.${NAME}`;
@@ -21,7 +21,7 @@ const ClassName = {
 };
 
 const Selector = {
-    DATA_TOGGLE: '[data-spy="navbar"]'
+    DATA_SPY: '[data-spy="navbar"]'
 };
 
 class Navbar {
@@ -58,12 +58,12 @@ class Navbar {
     }
 }
 
-const plugin = new Plugin(NAME, DATA_KEY, Navbar);
-
-plugin.init();
+const instance = plugin(NAME, DATA_KEY, Navbar);
 
 $(window).on(Event.LOAD_DATA_API, () => {
-    $(Selector.DATA_TOGGLE).each(function() {
-        plugin.instance.call($(this), $(this).data());
+    // eslint-disable-next-line func-names
+    $(Selector.DATA_SPY).each(function() {
+        const $this = $(this);
+        instance.call($this, $this.data());
     });
 });
