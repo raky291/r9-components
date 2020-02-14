@@ -33,6 +33,10 @@ class Navbar {
         $(window).on(Event.SCROLL, () => this.process());
     }
 
+    static get Default() {
+        return Default;
+    }
+
     show() {
         $(this.element).addClass(ClassName.SHOW);
     }
