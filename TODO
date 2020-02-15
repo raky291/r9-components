@@ -2,16 +2,9 @@
 
 update effects scss
 update hero scss
-update position scss
-
-https://gist.github.com/monkeymonk/c08cb040431f89f99928132ca221d647
-https://github.com/twbs/bootstrap/blob/v3.3.7/js/scrollspy.js
-https://github.com/twbs/bootstrap/blob/v4.4.1/js/src/scrollspy.js
-https://github.com/twbs/bootstrap/blob/master/js/src/scrollspy.js
-
--------------------------------------------------
-
+update spacing scss
 footer themes - styles for switching between footers with light or dark background
+
 use font responsive
 qa responsive views
 
