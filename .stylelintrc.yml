@@ -1,0 +1,7 @@
+extends:
+  - stylelint-config-twbs-bootstrap/scss
+  - stylelint-prettier/recommended
+rules:
+  scss/dollar-variable-default:
+    - true
+    - ignore: local

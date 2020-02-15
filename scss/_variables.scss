@@ -9,36 +9,27 @@ $enable-rounded: false !default;
 // Spacing
 
 $spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer * 1,
+    4: $spacer * 1.5,
+    5: $spacer * 2,
+    6: $spacer * 3
+) !default;
 
-$spacers: () !default;
-$spacers: map-merge(
-    (
-        0: 0,
-        1: $spacer * 0.25,
-        2: $spacer * 0.5,
-        3: $spacer * 1,
-        4: $spacer * 1.5,
-        5: $spacer * 2,
-        6: $spacer * 3
-    ),
-    $spacers
-);
-
-$large-spacers: () !default;
-$large-spacers: map-merge(
-    (
-        1: $spacer * 3.75,
-        2: $spacer * 5,
-        3: $spacer * 7.5,
-        4: $spacer * 10,
-        5: $spacer * 11.25,
-        6: $spacer * 13.75,
-        7: $spacer * 16.25,
-        8: $spacer * 17.5,
-        9: $spacer * 20
-    ),
-    $large-spacers
-);
+$large-spacers: (
+    1: $spacer * 3.75,
+    2: $spacer * 5,
+    3: $spacer * 7.5,
+    4: $spacer * 10,
+    5: $spacer * 11.25,
+    6: $spacer * 13.75,
+    7: $spacer * 16.25,
+    8: $spacer * 17.5,
+    9: $spacer * 20
+) !default;
 
 // Grid breakpoints
 

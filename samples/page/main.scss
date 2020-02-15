@@ -1,3 +1,5 @@
+// stylelint-disable declaration-no-important, scss/dollar-variable-default, selector-max-id
+
 // colors
 
 $gray-100: #f8f9fa;
@@ -47,8 +49,8 @@ $navbar-light-hover-color: $gray-900;
         letter-spacing: 1px;
 
         &.btn {
-            margin-left: 2rem;
             padding: 1rem 4rem;
+            margin-left: 2rem;
         }
     }
 }
@@ -77,9 +79,9 @@ $navbar-light-hover-color: $gray-900;
     }
 
     .rounded-circle {
-        background-color: $gray-900;
-        height: 54px;
         width: 54px;
+        height: 54px;
+        background-color: $gray-900;
     }
 
     .border-top {

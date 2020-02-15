@@ -1,3 +1,5 @@
+// stylelint-disable declaration-no-important
+
 // Effects
 
 @mixin underline-from-left() {
@@ -9,14 +11,14 @@
         display: inline-block;
         overflow: hidden;
 
-        &:after {
-            content: '';
+        &::after {
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
             left: 0;
             z-index: -1;
+            content: '';
             border-bottom: 2px solid;
             transition: $effects-transition;
             transform: scaleX(0);
@@ -27,7 +29,7 @@
     &:hover,
     &:focus,
     &:active {
-        span:after {
+        span::after {
             transform: scaleX(1);
         }
     }
@@ -35,19 +37,19 @@
 
 @mixin sweep-to-right($color) {
     position: relative;
+    z-index: $zindex-effects;
     display: inline-block;
     overflow: hidden;
-    z-index: $zindex-effects;
     transition: $effects-transition;
 
-    &:after {
-        content: '';
+    &::after {
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: -1;
+        content: '';
         background-color: $color;
         transition: $effects-transition;
         transform: scaleX(0);
@@ -60,7 +62,7 @@
         color: color-yiq($color) !important;
         background-color: transparent !important;
 
-        &:after {
+        &::after {
             transform: scaleX(1);
         }
     }
