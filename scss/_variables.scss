@@ -19,16 +19,19 @@ $spacers: (
     6: $spacer * 3
 ) !default;
 
-$large-spacers: (
+$lg-spacers: (
     1: $spacer * 3.75,
     2: $spacer * 5,
-    3: $spacer * 7.5,
-    4: $spacer * 10,
-    5: $spacer * 11.25,
-    6: $spacer * 13.75,
-    7: $spacer * 16.25,
-    8: $spacer * 17.5,
-    9: $spacer * 20
+    3: $spacer * 6.25,
+    4: $spacer * 7.5,
+    5: $spacer * 8.75,
+    6: $spacer * 10,
+    7: $spacer * 11.25,
+    8: $spacer * 12.5,
+    9: $spacer * 13.75,
+    10: $spacer * 15,
+    11: $spacer * 16.25,
+    12: $spacer * 17.5
 ) !default;
 
 // Grid breakpoints
