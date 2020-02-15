@@ -58,7 +58,24 @@ class Navbar {
     }
 
     visibility(scroll) {
-        return (scroll <= this.options.min && this.options.show) || (scroll > this.options.min && scroll < this.prev);
+        if (scroll <= this.options.min) {
+            if (this.options.show) {
+                return true;
+            }
+        } else if (scroll < this.prev) {
+            return true;
+        }
+
+        return false;
+    }
+
+    dispose() {
+        $(window).off(EVENT_KEY);
+        $(this.element).removeData(DATA_KEY);
+
+        this.element = null;
+        this.options = null;
+        this.prev = null;
     }
 }
 
