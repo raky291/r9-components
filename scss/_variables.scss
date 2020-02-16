@@ -55,9 +55,11 @@ $container-max-widths: (
     xx: 1440px
 ) !default;
 
-// Effects
+// Animation
 
-$effects-transition: all 0.3s ease-out !default;
+$animation-base: all 0.3s ease-in-out !default;
+$animation-slow: all 0.5s ease-in-out !default;
+$animation-fast: all 0.1s ease-in-out !default;
 
 // Typography
 
@@ -101,15 +103,13 @@ $btn-border-width: 2px !default;
 // Z-index
 
 $zindex-hero: 100 !default;
-$zindex-effects: 200 !default;
+$zindex-animation: 200 !default;
 $zindex-absolute: 1010 !default;
 
 // Navbar
 
 $navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
-
-$navbar-spy-transition: all 0.5s ease-out !default;
 
 // Hero
 

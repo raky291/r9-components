@@ -1,10 +1,10 @@
 // stylelint-disable declaration-no-important
 
-// Effects
+// Animation
 
 @mixin underline-from-left() {
-    z-index: $zindex-effects;
-    transition: $effects-transition;
+    z-index: $zindex-animation;
+    transition: $animation-base;
 
     span {
         position: relative;
@@ -20,7 +20,7 @@
             z-index: -1;
             content: '';
             border-bottom: 2px solid;
-            transition: $effects-transition;
+            transition: $animation-base;
             transform: scaleX(0);
             transform-origin: 0 50%;
         }
@@ -37,10 +37,10 @@
 
 @mixin sweep-to-right($color) {
     position: relative;
-    z-index: $zindex-effects;
+    z-index: $zindex-animation;
     display: inline-block;
     overflow: hidden;
-    transition: $effects-transition;
+    transition: $animation-base;
 
     &::after {
         position: absolute;
@@ -51,7 +51,7 @@
         z-index: -1;
         content: '';
         background-color: $color;
-        transition: $effects-transition;
+        transition: $animation-base;
         transform: scaleX(0);
         transform-origin: 0 50%;
     }

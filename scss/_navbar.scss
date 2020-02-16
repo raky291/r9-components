@@ -1,7 +1,7 @@
 // Navbar
 
 .navbar-spy {
-    transition: $navbar-spy-transition;
+    transition: $animation-slow;
     transform: translateY(-100%);
 
     &.show {
