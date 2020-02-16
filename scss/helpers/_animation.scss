@@ -4,8 +4,12 @@
     @include underline-from-left();
 }
 
+.sweep-to-right {
+    @include sweep-to-right();
+}
+
 @each $color, $value in $theme-colors {
     .sweep-to-right-#{$color} {
-        @include sweep-to-right($value);
+        @include sweep-to-right-variant($value);
     }
 }
