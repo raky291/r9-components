@@ -63,6 +63,10 @@ $navbar-light-hover-color: $gray-900;
     height: 100px;
 }
 
+.navbar-spy.show {
+    box-shadow: $box-shadow;
+}
+
 // content
 
 #content-section .lead {

@@ -1,8 +1,8 @@
 -------------------------------------------------
 
-update effects scss
+create default transitions
+create lint npm scripts
 update hero scss
-update spacing scss
 footer themes - styles for switching between footers with light or dark background
 
 use font responsive
