@@ -39,11 +39,11 @@
         min-height: $hero-xl;
     }
 
-    &.hero-bg-light {
+    .hero-bg-light {
         background-color: $hero-bg-light;
     }
 
-    &.hero-bg-dark {
+    .hero-bg-dark {
         background-color: $hero-bg-dark;
     }
 }
