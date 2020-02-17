@@ -1,9 +1,11 @@
 -------------------------------------------------
 
 create lint npm scripts
-footer themes - styles for switching between footers with light or dark background
+disable print styles
 
-use font responsive
+footer themes - styles for switching between footers with light or dark background
+enable responsive font sizes
+
 qa responsive views
 
 https://rno1.com/privacy-policy
