@@ -7,13 +7,13 @@
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         @each $prop, $abbrev in (margin: m, padding: p) {
-            @each $size, $length in $lg-spacers {
-                .lg-#{$abbrev}t#{$infix}-#{$size},
-                .lg-#{$abbrev}y#{$infix}-#{$size} {
+            @each $size, $length in $spacers {
+                .#{$abbrev}t#{$infix}-#{$size},
+                .#{$abbrev}y#{$infix}-#{$size} {
                     #{$prop}-top: $length !important;
                 }
-                .lg-#{$abbrev}b#{$infix}-#{$size},
-                .lg-#{$abbrev}y#{$infix}-#{$size} {
+                .#{$abbrev}b#{$infix}-#{$size},
+                .#{$abbrev}y#{$infix}-#{$size} {
                     #{$prop}-bottom: $length !important;
                 }
             }

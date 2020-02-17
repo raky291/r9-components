@@ -9,6 +9,7 @@ $enable-rounded: false !default;
 // Spacing
 
 $spacer: 1rem !default;
+
 $spacers: (
     0: 0,
     1: $spacer * 0.25,
@@ -17,21 +18,6 @@ $spacers: (
     4: $spacer * 1.5,
     5: $spacer * 2,
     6: $spacer * 3
-) !default;
-
-$lg-spacers: (
-    1: $spacer * 3.75,
-    2: $spacer * 5,
-    3: $spacer * 6.25,
-    4: $spacer * 7.5,
-    5: $spacer * 8.75,
-    6: $spacer * 10,
-    7: $spacer * 11.25,
-    8: $spacer * 12.5,
-    9: $spacer * 13.75,
-    10: $spacer * 15,
-    11: $spacer * 16.25,
-    12: $spacer * 17.5
 ) !default;
 
 // Grid breakpoints
