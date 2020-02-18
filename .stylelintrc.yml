@@ -9,6 +9,8 @@ rules:
         - first-nested
       ignore:
         - after-comment
+      ignoreAtRules:
+        - else
   rule-empty-line-before:
     - always-multi-line
     - except:
