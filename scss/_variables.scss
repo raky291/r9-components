@@ -5,6 +5,7 @@ $black: #000 !default;
 // Options
 
 $enable-rounded: false !default;
+$enable-print-styles: false !default;
 
 // Spacing
 
@@ -18,6 +19,23 @@ $spacers: (
     4: $spacer * 1.5,
     5: $spacer * 2,
     6: $spacer * 3
+) !default;
+
+$spacers-y: (
+    7: $spacer * 3.75,
+    8: $spacer * 5,
+    9: $spacer * 6.25,
+    10: $spacer * 7.5,
+    11: $spacer * 8.75,
+    12: $spacer * 10,
+    13: $spacer * 11.25,
+    14: $spacer * 12.5,
+    15: $spacer * 13.75,
+    16: $spacer * 15,
+    17: $spacer * 16.25,
+    18: $spacer * 17.5,
+    19: $spacer * 18.75,
+    20: $spacer * 20
 ) !default;
 
 // Grid breakpoints
