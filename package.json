@@ -2,9 +2,9 @@
   "name": "r9-components",
   "version": "1.0.0",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prettier": "prettier --ignore-path .gitignore --write **/*.{html,js,json,scss,yml}",
+    "eslint": "eslint . --fix",
+    "prettier": "prettier --list-different --write **/*.{html,js,json,md,scss,yml}",
+    "stylelint": "stylelint **/*.scss --fix",
     "start": "parcel samples/**/*.html"
   },
   "devDependencies": {
