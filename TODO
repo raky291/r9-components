@@ -1,5 +1,24 @@
 -------------------------------------------------
 
+footer
+footer-divider
+footer-section
+footer-text
+
+dropdown
+dropdown-toggle
+dropdown-menu
+dropdown-item
+dropdown-divider
+dropdown-item-text
+dropdown-header
+
+https://getmdl.io/components/index.html#layout-section/footer
+https://getbootstrap.com/docs/4.4/components/navbar/
+https://getbootstrap.com/docs/4.4/components/navs/
+
+-------------------------------------------------
+
 footer themes - styles for switching between footers with light or dark background
 
 enable responsive font sizes
