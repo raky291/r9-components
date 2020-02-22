@@ -94,18 +94,12 @@ $navbar-light-hover-color: $gray-900;
 }
 
 #call-to-action-section {
-    .btn-outline-light {
+    .btn {
         padding: 1rem 4rem;
         font-size: $font-size-base * 0.75;
         font-weight: $font-weight-bold;
         text-transform: uppercase;
         letter-spacing: 1px;
-    }
-}
-
-#social-icons-section {
-    .fab {
-        font-size: $h5-font-size;
     }
 }
 

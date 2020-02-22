@@ -1,0 +1,12 @@
+// Buttons
+
+.btn-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: $btn-circle-size;
+    height: $btn-circle-size;
+    padding: 0;
+    font-size: $btn-circle-font-size;
+    border-radius: 50%;
+}
