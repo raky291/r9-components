@@ -76,20 +76,8 @@ $navbar-light-hover-color: $gray-900;
 // footer
 
 #wrapper-footer {
-    background-color: $black;
-
     .hero {
         transform: translateY(-120px);
-    }
-
-    .rounded-circle {
-        width: 54px;
-        height: 54px;
-        background-color: $gray-900;
-    }
-
-    .border-top {
-        border-color: $gray-900 !important;
     }
 }
 

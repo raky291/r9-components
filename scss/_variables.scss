@@ -1,5 +1,6 @@
 // Colors
 
+$white: #fff !default;
 $black: #000 !default;
 
 // Options
@@ -76,7 +77,9 @@ $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 $font-weight-black: 900 !default;
 
-$font-weight-regular: $font-weight-normal !default;
+$font-weight-base: $font-weight-normal !default;
+
+$line-height-base: 1.5 !default;
 
 $h1-font-size: $font-size-base * 3 !default;
 $h2-font-size: $font-size-base * 2.5 !default;
@@ -85,20 +88,20 @@ $h4-font-size: $font-size-base * 1.75 !default;
 $h5-font-size: $font-size-base * 1.5 !default;
 $h6-font-size: $font-size-base * 1.25 !default;
 
-$headings-font-weight: $font-weight-regular !default;
+$headings-font-weight: $font-weight-base !default;
 
 $display1-size: $font-size-base * 5 !default;
 $display2-size: $font-size-base * 4.5 !default;
 $display3-size: $font-size-base * 4 !default;
 $display4-size: $font-size-base * 3.5 !default;
 
-$display1-weight: $font-weight-regular !default;
-$display2-weight: $font-weight-regular !default;
-$display3-weight: $font-weight-regular !default;
-$display4-weight: $font-weight-regular !default;
+$display1-weight: $font-weight-base !default;
+$display2-weight: $font-weight-base !default;
+$display3-weight: $font-weight-base !default;
+$display4-weight: $font-weight-base !default;
 
 $lead-font-size: $font-size-base * 1.25 !default;
-$lead-font-weight: $font-weight-regular !default;
+$lead-font-weight: $font-weight-base !default;
 
 // Buttons
 
@@ -117,6 +120,27 @@ $zindex-absolute: 1010 !default;
 
 $navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
+
+// Footer
+
+$footer-header-font-size: $font-size-base !default;
+$footer-header-font-weight: $font-weight-bold !default;
+$footer-header-line-height: $line-height-base !default;
+
+$footer-light-color: rgba($black, 0.55) !default;
+$footer-light-hover-color: rgba($black, 0.7) !default;
+$footer-light-active-color: rgba($black, 0.9) !default;
+$footer-light-disabled-color: rgba($black, 0.3) !default;
+
+$footer-dark-color: rgba($white, 0.55) !default;
+$footer-dark-hover-color: rgba($white, 0.75) !default;
+$footer-dark-active-color: $white !default;
+$footer-dark-disabled-color: rgba($white, 0.25) !default;
+
+$footer-light-header-color: $footer-light-active-color !default;
+$footer-light-header-hover-color: $footer-light-active-color !default;
+$footer-dark-header-color: $footer-dark-active-color !default;
+$footer-dark-header-hover-color: $footer-dark-active-color !default;
 
 // Hero
 
