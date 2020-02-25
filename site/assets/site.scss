@@ -1,0 +1,96 @@
+// stylelint-disable declaration-no-important, scss/dollar-variable-default, selector-max-id
+
+// colors
+
+$gray-100: #f8f9fa;
+$gray-900: #212529;
+
+// typography
+
+$font-family-base: 'Roboto', sans-serif;
+
+// navbar
+
+$navbar-nav-link-padding-x: 2.5rem;
+
+$navbar-dark-color: $gray-100;
+$navbar-dark-hover-color: $gray-100;
+
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $gray-900;
+
+// imports
+
+@import '../../scss/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '../../scss/r9-components';
+
+// containers
+
+.navbar .container {
+    @include media-breakpoint-up(xx) {
+        max-width: 90%;
+    }
+}
+
+#content-section .container {
+    @media (min-width: 1000px) {
+        max-width: 900px;
+    }
+}
+
+// navbar
+
+.navbar {
+    .nav-link {
+        font-size: $font-size-base * 0.75;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        &.btn {
+            padding: 1rem 4rem;
+            margin-left: 2rem;
+        }
+    }
+}
+
+.navbar-dark {
+    height: 155px;
+}
+
+.navbar-light {
+    height: 100px;
+}
+
+.navbar-spy.show {
+    box-shadow: $box-shadow;
+}
+
+// content
+
+#content-section .lead {
+    line-height: 2.25;
+}
+
+// footer
+
+#wrapper-footer {
+    .hero {
+        transform: translateY(-120px);
+    }
+}
+
+#call-to-action-section {
+    .btn {
+        padding: 1rem 4rem;
+        font-size: $font-size-base * 0.75;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
+#legal-section {
+    font-size: $font-size-base * 0.75;
+}

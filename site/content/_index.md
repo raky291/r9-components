@@ -1,0 +1,264 @@
+---
+title: Home
+---
+
+<div id="wrapper-navbar">
+    <nav class="navbar navbar-expand-md navbar-dark absolute-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/rno1-logo-light.png" alt="" />
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-primary">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Work</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Capabilities</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Revolve</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link btn btn-outline-light sweep-to-right sweep-to-right-light">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top navbar-spy" data-spy="navbar" data-show="false">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/rno1-logo-dark.png" alt="" />
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-primary">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Work</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Capabilities</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link underline-from-left">
+                            <span class="py-1">Revolve</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link btn btn-outline-dark sweep-to-right sweep-to-right-dark">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="page-wrapper">
+    <main class="site-main" id="main">
+        <article class="page">
+            <div class="entry-content">
+                <section id="hero-section">
+                    <div class="hero">
+                        <div class="hero-body">
+                            <div class="container lg-pt-12 lg-pb-11">
+                                <h1 class="display-2 text-light">Privacy Policy.</h1>
+                            </div>
+                        </div>
+                        <div class="hero-bg">
+                            <img src="img/img-bg-cover-privacy-policy.jpg" alt="" class="hero-src" />
+                        </div>
+                    </div>
+                </section>
+                <section id="content-section">
+                    <div class="container lg-pt-9 lg-pb-12">
+                        <!-- cspell: disable -->
+                        <p class="lead mb-0">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ratione, nihil, quos
+                            possimus dolorum temporibus dignissimos, expedita reiciendis adipisci rem modi! Explicabo
+                            tempora totam obcaecati id deserunt consectetur non quis. Reprehenderit laudantium,
+                            necessitatibus at quibusdam nulla similique enim, vero sunt aspernatur vitae eligendi
+                            quisquam. Similique sunt magni, incidunt ullam suscipit officiis quia voluptatem nesciunt?
+                            Sapiente inventore sint placeat culpa eveniet.
+                        </p>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea pariatur asperiores
+                            exercitationem neque expedita voluptatum et veritatis iusto amet numquam maiores harum,
+                            dolores repudiandae hic consectetur quidem incidunt doloremque nam. Consequatur temporibus
+                            amet fugit veritatis eveniet. Tempore a culpa molestias eligendi rerum fuga distinctio,
+                            facilis veritatis repudiandae necessitatibus perferendis sed assumenda explicabo sequi illum
+                            nulla inventore quibusdam eveniet ab eum.
+                        </p>
+                        <h2 class="lg-mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur</h2>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum, veniam deleniti nisi
+                            delectus perferendis totam doloribus praesentium doloremque consequuntur minus! Earum facere
+                            id similique tempora. Exercitationem architecto sit autem? Ratione assumenda atque in nam
+                            consequuntur mollitia similique velit, illum obcaecati? Corrupti tempora incidunt saepe!
+                            Enim id harum neque voluptatum, temporibus, dolor officiis, fugiat odio adipisci provident
+                            porro hic voluptatem. Reiciendis ipsam corporis odio. Nam, autem iure, quidem ipsum pariatur
+                            dolorum minus obcaecati suscipit quaerat deleniti libero voluptatem voluptas? Consectetur
+                            incidunt aperiam deserunt, aut omnis aliquam veniam commodi repellendus neque. Sed
+                            exercitationem suscipit, ratione unde ab dolorem optio voluptas. Molestiae neque consequatur
+                            architecto repellat ab atque exercitationem, et accusamus. Est impedit, illum laboriosam
+                            natus delectus esse fugit libero sequi deserunt!
+                        </p>
+                        <h2 class="lg-mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur</h2>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia at dolorum non minima, sunt
+                            iusto expedita, soluta exercitationem magni amet et praesentium eius, obcaecati alias saepe
+                            delectus. Non, saepe nihil? Fugiat quisquam id quaerat, nihil quia quo quam sint. Ipsam
+                            accusantium nulla excepturi laudantium eaque illo. Facilis debitis praesentium veniam modi
+                            rerum? Voluptas voluptates expedita, omnis amet corporis quos tempora! Cupiditate odit nobis
+                            officia illo tenetur saepe eaque nihil veniam accusamus libero non pariatur quam numquam
+                            facilis amet consectetur voluptates sapiente eveniet praesentium mollitia perferendis,
+                            magnam doloremque. Sunt, atque placeat! Quaerat quam quidem veniam libero explicabo animi,
+                            necessitatibus iure eius, illum hic perferendis delectus. Qui, alias provident quas aperiam,
+                            blanditiis accusantium, porro repellendus laborum vitae unde modi nobis error eos!
+                            Repellendus, porro doloribus! Earum non sapiente placeat nobis omnis adipisci et laborum
+                            neque maiores aperiam amet ullam beatae eaque sed quasi numquam itaque, quam fugiat ex est
+                            exercitationem animi quae. Beatae, quibusdam. Dolor dolore laudantium autem aut nisi
+                            blanditiis cupiditate veritatis nemo quisquam ab consectetur debitis et laborum ut ipsa
+                            dignissimos distinctio aspernatur est ipsum reiciendis aliquam, eos nobis voluptatibus?
+                        </p>
+                        <h2 class="lg-mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur</h2>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officia iste id earum
+                            non porro quaerat, eos error exercitationem similique at dicta voluptate placeat recusandae,
+                            voluptatem repellat repudiandae, reprehenderit blanditiis!Nostrum harum quos animi, qui vel
+                            tempora molestiae magni atque, veniam, maxime doloremque debitis officiis a dignissimos
+                            perferendis quaerat hic nam voluptatibus consectetur error mollitia necessitatibus optio
+                            tenetur odit. Esse.
+                        </p>
+                        <h2 class="lg-mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur</h2>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptatibus non! Aspernatur
+                            debitis doloremque officiis laudantium aperiam quam, possimus iusto doloribus perferendis
+                            explicabo corporis minima neque sit voluptatibus ducimus? Quas. Aliquid deleniti, atque unde
+                            labore, suscipit soluta magni quibusdam molestias, modi doloremque facilis rerum reiciendis
+                            voluptatibus quo? Asperiores dignissimos, natus minima iste officia quos eligendi numquam
+                            distinctio culpa aliquam sapiente? Ullam quisquam magnam sed consequuntur reprehenderit
+                            tempora eum dolore ratione libero vero deleniti aperiam earum possimus quo, dolorum ipsam
+                            autem quas, id placeat in! Maxime quaerat explicabo tenetur accusamus nobis? Laborum dolor
+                            quae ipsam eius voluptas vel illo sed quam error quia, assumenda quasi, obcaecati nulla odit
+                            earum ad, quos soluta quo voluptatum velit reiciendis porro? Ut neque illo culpa.
+                        </p>
+                        <h2 class="lg-mt-4 mb-0">Lorem ipsum dolor, sit amet consectetur</h2>
+                        <p class="lead mt-6 mb-0">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, illum id eum fugiat
+                            provident sunt consectetur veritatis alias odio ipsum repellendus commodi sint perspiciatis
+                            amet iusto at quae in. Pariatur? Fugit itaque tenetur assumenda dolore quae asperiores hic
+                            earum, ratione dolor obcaecati? Beatae saepe, debitis quibusdam architecto, at nostrum, rem
+                            earum doloremque ratione aliquid mollitia molestiae laborum voluptates cupiditate fugit.
+                            Fuga consequuntur impedit molestias voluptate? Sed, deleniti natus. Ut, dolores consequuntur
+                            totam facilis voluptatibus perspiciatis deserunt rem! Explicabo, alias rem, quae maiores,
+                            quia soluta distinctio et molestias odio rerum enim. Illo sit dolorum eius eligendi,
+                            laboriosam voluptatem atque ipsum voluptatum odit, reprehenderit, ut quos animi.
+                            Dignissimos, quam sequi ab voluptate temporibus accusamus ducimus nostrum quia. Sequi
+                            voluptate voluptatem fugiat laboriosam.
+                        </p>
+                        <!-- cspell: enable -->
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+</div>
+<div class="footer footer-dark bg-dark" id="wrapper-footer">
+    <section class="container" id="call-to-action-section">
+        <div class="hero">
+            <div class="hero-body">
+                <div class="hero-bg-light text-center pt-17 pb-15">
+                    <h2 class="display-2 text-light">Let’s make waves.</h2>
+                    <a href="#" class="btn btn-sweep-to-right-light mt-6">
+                        <span>Start a partnership</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-bg">
+                <img src="img/img-footer-inquiry-bg.jpg" alt="" class="hero-src" />
+            </div>
+        </div>
+    </section>
+    <section class="container" id="footer-section">
+        <div class="row pt-6">
+            <div class="col-md-2">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="py-2">
+                        <img src="img/rno1-logo-light.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-inline-block">
+                    <h2 class="footer-header text-uppercase">Quick Links</h2>
+                    <nav class="footer-nav nav flex-column">
+                        <a href="#" class="nav-link">Work</a>
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Capabilities</a>
+                        <a href="#" class="nav-link">Revolve</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-light btn-circle mr-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="btn btn-light btn-circle mr-3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="btn btn-light btn-circle mr-3">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="legal-section">
+        <div class="border-top border-light mt-10 py-6">
+            <div class="row">
+                <div class="col-md-7">
+                    <nav class="footer-nav nav">
+                        <a href="#" class="nav-link">Privacy Policy</a>
+                        <a href="#" class="nav-link">Terms of Use</a>
+                        <a href="#" class="nav-link">Site Credits</a>
+                    </nav>
+                </div>
+                <div class="col-md-5">
+                    <div class="text-right">
+                        <span class="footer-text">Copyright &copy; 2020 R9 Digital Marketing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
