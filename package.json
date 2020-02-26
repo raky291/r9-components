@@ -5,8 +5,8 @@
     "eslint": "eslint . --fix",
     "prettier": "prettier --list-different --write **/*.{html,js,json,md,scss,yml}",
     "stylelint": "stylelint **/*.scss --fix",
-    "parcel:build": "parcel build site/assets/site.js --out-dir site/static/dist --public-url ./",
-    "parcel:watch": "parcel watch site/assets/site.js --out-dir site/static/dist --public-url ./"
+    "parcel:build": "parcel build site/assets/src/site.js --out-dir site/assets/dist --public-url ./",
+    "parcel:watch": "parcel watch site/assets/src/site.js --out-dir site/assets/dist --public-url ./"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
