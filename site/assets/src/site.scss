@@ -57,10 +57,18 @@ $navbar-light-hover-color: $gray-900;
 
 .navbar-dark {
     height: 155px;
+
+    .btn:hover {
+        color: $yiq-text-dark !important;
+    }
 }
 
 .navbar-light {
     height: 100px;
+
+    .btn:hover {
+        color: $yiq-text-light !important;
+    }
 }
 
 .navbar-spy.show {
