@@ -11,3 +11,10 @@ package-lock.json
 # Parcel
 .cache/
 dist/
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
