@@ -12,6 +12,9 @@ package-lock.json
 .cache/
 dist/
 
+# Gem
+Gemfile.lock
+
 # Jekyll
 _site
 .sass-cache
