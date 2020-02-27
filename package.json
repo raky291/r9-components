@@ -2,9 +2,9 @@
   "name": "r9-components",
   "version": "1.0.0",
   "scripts": {
-    "eslint": "eslint . --fix",
-    "prettier": "prettier --list-different --write **/*.{html,js,json,md,scss,yml}",
-    "stylelint": "stylelint **/*.scss --fix",
+    "eslint": "eslint --fix --ignore-path .gitignore .",
+    "prettier": "prettier --ignore-path .gitignore --list-different --write **/*.{css,html,js,json,md,scss,yml}",
+    "stylelint": "stylelint **/*.scss --fix --ignore-path .gitignore",
     "parcel:build": "parcel build site/assets/src/site.js --out-dir site/assets/dist --public-url ./",
     "parcel:watch": "parcel watch site/assets/src/site.js --out-dir site/assets/dist --public-url ./"
   },
