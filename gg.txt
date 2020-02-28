@@ -1,3 +1,11 @@
+https://marketingplatform.google.com/intl/es/about/analytics/
+https://visualstudio.microsoft.com/es/
+https://azure.microsoft.com/es-mx/
+https://aws.amazon.com/es/
+https://stackoverflow.com/
+https://cloud.google.com/?hl=es
+
+
 https://cssreference.io/property/transition-timing-function/
 
 <!-- All -->
