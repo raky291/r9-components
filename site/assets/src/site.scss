@@ -33,11 +33,11 @@ $navbar-light-hover-color: $gray-900;
     }
 }
 
-#content-section .container {
-    @media (min-width: 1000px) {
-        max-width: 900px;
-    }
-}
+// #content-section .container {
+//     @media (min-width: 1000px) {
+//         max-width: 900px;
+//     }
+// }
 
 // navbar
 
@@ -75,12 +75,12 @@ $navbar-light-hover-color: $gray-900;
     box-shadow: $box-shadow;
 }
 
-// content
+// page
 
 #hero-section {
-    .hero-bg-dark {
-        background-color: rgba($black, 0.75);
-    }
+    // .hero-bg-dark {
+    //     background-color: rgba($black, 0.75);
+    // }
 
     .btn {
         padding: 1rem 4rem;
@@ -91,9 +91,9 @@ $navbar-light-hover-color: $gray-900;
     }
 }
 
-#content-section .lead {
-    line-height: 2.25;
-}
+// #content-section .lead {
+//     line-height: 2.25;
+// }
 
 // footer
 
