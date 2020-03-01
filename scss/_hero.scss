@@ -6,7 +6,7 @@
     .hero-body {
         position: relative;
         z-index: $zindex-hero;
-        min-height: $hero-md;
+        min-height: $hero-min-height-base;
     }
 
     .hero-bg {
@@ -28,22 +28,18 @@
 
 .hero-body {
     &.hero-sm {
-        min-height: $hero-sm;
+        min-height: $hero-min-height-sm;
     }
 
     &.hero-lg {
-        min-height: $hero-lg;
-    }
-
-    &.hero-xl {
-        min-height: $hero-xl;
+        min-height: $hero-min-height-lg;
     }
 
     .hero-bg-light {
-        background-color: $hero-bg-light;
+        background-color: $hero-light-bg-color;
     }
 
     .hero-bg-dark {
-        background-color: $hero-bg-dark;
+        background-color: $hero-dark-bg-color;
     }
 }

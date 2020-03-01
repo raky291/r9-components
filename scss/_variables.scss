@@ -144,10 +144,9 @@ $footer-dark-header-hover-color: $footer-dark-active-color !default;
 
 // Hero
 
-$hero-sm: 450px !default;
-$hero-md: 600px !default;
-$hero-lg: 750px !default;
-$hero-xl: 100vh !default;
+$hero-min-height-base: 600px !default;
+$hero-min-height-lg: 750px !default;
+$hero-min-height-sm: 450px !default;
 
-$hero-bg-light: rgba($black, 0.25) !default;
-$hero-bg-dark: rgba($black, 0.5) !default;
+$hero-light-bg-color: rgba($black, 0.25) !default;
+$hero-dark-bg-color: rgba($black, 0.5) !default;

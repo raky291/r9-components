@@ -77,6 +77,20 @@ $navbar-light-hover-color: $gray-900;
 
 // content
 
+#hero-section {
+    .hero-bg-dark {
+        background-color: rgba($black, 0.75);
+    }
+
+    .btn {
+        padding: 1rem 4rem;
+        font-size: $font-size-base * 0.75;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
 #content-section .lead {
     line-height: 2.25;
 }

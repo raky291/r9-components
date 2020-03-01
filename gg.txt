@@ -1,3 +1,15 @@
+https://www.dealerspike.com/
+https://powerdigitalmarketing.com/
+https://www.emotedigital.com.au/
+https://www.jastmedia.com/
+
+-------------------------------------------------
+
+https://www.pexels.com/video/waves-crashing-1390942/
+
+-------------------------------------------------
+
+https://www.qt.io/
 https://marketingplatform.google.com/intl/es/about/analytics/
 https://visualstudio.microsoft.com/es/
 https://azure.microsoft.com/es-mx/
@@ -5,13 +17,10 @@ https://aws.amazon.com/es/
 https://stackoverflow.com/
 https://cloud.google.com/?hl=es
 
-
 https://cssreference.io/property/transition-timing-function/
 
 <!-- All -->
 <!-- https://www.rno1.com/ -->
-<!-- https://www.emotedigital.com.au/ -->
-<!-- https://powerdigitalmarketing.com/services/ -->
 
 https://www.katyperry.com/
 https://www.spotify.com/us/
@@ -21,21 +30,17 @@ https://www.memberstack.io/
 <!-- https://mdbootstrap.com/snippets/jquery/mdbootstrap/111715 -->
 
 <!-- Services -->
-<!-- https://www.dealerspike.com/ -->
 <!-- https://www.seo.com/services/ -->
 <!-- https://www.mainstreethost.com/digital-marketing-services/ -->
 <!-- https://thriveagency.com/digital-marketing-services/ -->
 <!-- https://socialmedia55.com/ -->
 <!-- https://www.orangemantra.com/services/online-marketing-services/ -->
 <!-- https://www.impcanada.com/digital-marketing-services -->
-<!-- https://startbootstrap.com/previews/landing-page/ -->
+<!-- https://www.lyfemarketing.com/services/ -->
 
 <!-- Footer -->
 <!-- https://www.pluralsight.com/ -->
 <!-- https://github.com/ -->
-
-<!-- Background image -->
-<!-- https://www.jetbrains.com/ -->
 
 <!-- Container -->
 <!-- https://visualstudio.microsoft.com/ -->
@@ -46,9 +51,6 @@ https://www.memberstack.io/
 
 <!-- CSS Polygon -->
 <!-- https://stackoverflow.com/ -->
-
-<!-- Info -->
-<!-- https://www.lyfemarketing.com/services/ -->
 
 <!-- La Paz -->
 <!-- http://www.brandel.com.mx/ -->
