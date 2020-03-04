@@ -111,6 +111,21 @@ $navbar-light-hover-color: $gray-900;
 
 #footer-section {
     transform: translateY(-60px);
+
+    form {
+        .form-control {
+            height: 50px;
+            color: $white;
+            background-color: $gray-900;
+            border-color: $gray-900;
+            border-radius: 20px;
+        }
+
+        .btn {
+            height: 50px;
+            border-radius: $rounded-pill;
+        }
+    }
 }
 
 #legal-section {

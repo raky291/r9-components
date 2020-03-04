@@ -110,6 +110,9 @@ $btn-border-width: 2px !default;
 $btn-circle-size: 3.5rem !default;
 $btn-circle-font-size: 1.5rem !default;
 
+$btn-circle-size-sm: 3rem !default;
+$btn-circle-font-size-sm: 1.25rem !default;
+
 // Z-index
 
 $zindex-hero: 100 !default;
@@ -123,9 +126,9 @@ $navbar-padding-x: 0 !default;
 
 // Footer
 
-$footer-header-font-size: $font-size-base !default;
-$footer-header-font-weight: $font-weight-bold !default;
-$footer-header-line-height: $line-height-base !default;
+$footer-title-font-size: $font-size-base * 1.5 !default;
+$footer-title-font-weight: $font-weight-bold !default;
+$footer-title-line-height: $line-height-base !default;
 
 $footer-light-color: rgba($black, 0.55) !default;
 $footer-light-hover-color: rgba($black, 0.7) !default;

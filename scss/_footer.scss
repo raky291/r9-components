@@ -3,22 +3,21 @@
 // Footer
 
 .footer {
-    .footer-header {
-        padding: $nav-link-padding-y $nav-link-padding-x;
-        font-size: $footer-header-font-size;
-        font-weight: $footer-header-font-weight;
-        line-height: $footer-header-line-height;
+    .footer-title {
+        font-size: $footer-title-font-size;
+        font-weight: $footer-title-font-weight;
+        line-height: $footer-title-line-height;
     }
 
     .footer-text {
         display: inline-block;
-        padding: $nav-link-padding-y $nav-link-padding-x;
-        text-decoration: none;
+        padding-top: $nav-link-padding-y;
+        padding-bottom: $nav-link-padding-y;
     }
 }
 
 .footer-light {
-    .footer-header {
+    .footer-title {
         color: $footer-light-header-color;
     }
 
@@ -57,7 +56,7 @@
 }
 
 .footer-dark {
-    .footer-header {
+    .footer-title {
         color: $footer-dark-header-color;
     }
 
