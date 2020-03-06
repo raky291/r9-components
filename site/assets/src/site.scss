@@ -97,9 +97,6 @@ $navbar-light-hover-color: $gray-900;
 
 // footer
 
-// #call-to-action-section {
-//     transform: translateY(-120px);
-
 //     .btn {
 //         padding: 1rem 4rem;
 //         font-size: $font-size-base * 0.75;
@@ -131,3 +128,15 @@ $navbar-light-hover-color: $gray-900;
 // #legal-section {
 //     font-size: $font-size-base * 0.75;
 // }
+
+.footer {
+    background-color: #222;
+
+    .border-top {
+        border-color: #363636 !important;
+    }
+}
+
+#call-to-action-section {
+    transform: translateY(-120px);
+}
