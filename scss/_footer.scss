@@ -16,7 +16,7 @@
 
 .footer-light {
     .footer-title {
-        color: $footer-light-header-color;
+        color: $footer-light-title-color;
     }
 
     .footer-nav {
@@ -43,19 +43,18 @@
 
     .footer-text {
         color: $footer-light-color;
-    }
 
-    a.footer-text {
-        &:hover,
-        &:focus {
-            color: $footer-light-hover-color;
+        a,
+        a:hover,
+        a:focus {
+            color: $footer-light-active-color;
         }
     }
 }
 
 .footer-dark {
     .footer-title {
-        color: $footer-dark-header-color;
+        color: $footer-dark-title-color;
     }
 
     .footer-nav {
@@ -82,12 +81,11 @@
 
     .footer-text {
         color: $footer-dark-color;
-    }
 
-    a.footer-text {
-        &:hover,
-        &:focus {
-            color: $footer-dark-hover-color;
+        a,
+        a:hover,
+        a:focus {
+            color: $footer-dark-active-color;
         }
     }
 }
