@@ -2,6 +2,7 @@
 
 // colors
 
+$white: #fff;
 $gray-100: #f8f9fa;
 $gray-900: #212529;
 
@@ -18,6 +19,11 @@ $navbar-dark-hover-color: $gray-100;
 
 $navbar-light-color: $gray-900;
 $navbar-light-hover-color: $gray-900;
+
+// footer
+
+$footer-dark-color: rgba($white, 0.5);
+$footer-dark-hover-color: $white;
 
 // imports
 
