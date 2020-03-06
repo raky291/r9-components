@@ -97,37 +97,37 @@ $navbar-light-hover-color: $gray-900;
 
 // footer
 
-#call-to-action-section {
-    transform: translateY(-120px);
+// #call-to-action-section {
+//     transform: translateY(-120px);
 
-    .btn {
-        padding: 1rem 4rem;
-        font-size: $font-size-base * 0.75;
-        font-weight: $font-weight-bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-}
+//     .btn {
+//         padding: 1rem 4rem;
+//         font-size: $font-size-base * 0.75;
+//         font-weight: $font-weight-bold;
+//         text-transform: uppercase;
+//         letter-spacing: 1px;
+//     }
+// }
 
-#footer-section {
-    transform: translateY(-60px);
+// #footer-section {
+//     transform: translateY(-60px);
 
-    form {
-        .form-control {
-            height: 50px;
-            color: $white;
-            background-color: $gray-900;
-            border-color: $gray-900;
-            border-radius: 20px;
-        }
+//     form {
+//         .form-control {
+//             height: 50px;
+//             color: $white;
+//             background-color: $gray-900;
+//             border-color: $gray-900;
+//             border-radius: 20px;
+//         }
 
-        .btn {
-            height: 50px;
-            border-radius: $rounded-pill;
-        }
-    }
-}
+//         .btn {
+//             height: 50px;
+//             border-radius: $rounded-pill;
+//         }
+//     }
+// }
 
-#legal-section {
-    font-size: $font-size-base * 0.75;
-}
+// #legal-section {
+//     font-size: $font-size-base * 0.75;
+// }
