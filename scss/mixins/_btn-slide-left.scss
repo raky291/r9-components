@@ -31,7 +31,7 @@
 
 @mixin btn-slide-left-variant(
     $color,
-    $color-hover: color-yiq($color),
+    $hover-color: color-yiq($color),
     $active-background: $color,
     $active-border: $color,
     $active-color: color-yiq($active-background)
@@ -45,7 +45,7 @@
     }
 
     &:hover {
-        color: $color-hover;
+        color: $hover-color;
         border-color: $active-border;
     }
 

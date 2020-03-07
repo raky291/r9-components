@@ -31,16 +31,16 @@
     }
 }
 
-@mixin link-underline-left-variant($color, $color-hover: $color) {
+@mixin link-underline-left-variant($color, $hover-color: $color) {
     @extend %link-underline-left-base;
     color: $color;
 
+    span::before {
+        border-color: $hover-color;
+    }
+
     &:hover,
     &:focus {
-        color: $color-hover;
-
-        span::before {
-            border-color: $color-hover;
-        }
+        color: $hover-color;
     }
 }
