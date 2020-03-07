@@ -66,6 +66,9 @@ $animation-base: all 0.3s ease-in-out !default;
 $animation-slow: all 0.5s ease-in-out !default;
 $animation-fast: all 0.1s ease-in-out !default;
 
+$btn-sweep-to-right-transition: $animation-base !default;
+$link-underline-from-left-transition: $animation-base !default;
+
 // Typography
 
 $font-size-base: 1rem !default;

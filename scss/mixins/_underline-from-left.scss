@@ -1,0 +1,46 @@
+// Underline from Left
+
+%link-underline-from-left-base {
+    transition: $link-underline-from-left-transition;
+
+    span {
+        position: relative;
+        z-index: $zindex-animation;
+        display: inline-block;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            content: '';
+            border-bottom: 2px solid;
+            transition: $link-underline-from-left-transition;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        span::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+@mixin link-underline-from-left-variant($color, $color-hover: $color) {
+    @extend %link-underline-from-left-base;
+    color: $color;
+
+    &:hover,
+    &:focus {
+        color: $color-hover;
+
+        span::before {
+            border-color: $color-hover;
+        }
+    }
+}
