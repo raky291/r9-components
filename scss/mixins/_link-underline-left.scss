@@ -1,7 +1,7 @@
 // Underline from Left
 
-%link-underline-from-left-base {
-    transition: $link-underline-from-left-transition;
+%link-underline-left-base {
+    transition: $link-underline-left-transition;
 
     span {
         position: relative;
@@ -17,7 +17,7 @@
             z-index: -1;
             content: '';
             border-bottom: 2px solid;
-            transition: $link-underline-from-left-transition;
+            transition: $link-underline-left-transition;
             transform: scaleX(0);
             transform-origin: 0 50%;
         }
@@ -31,8 +31,8 @@
     }
 }
 
-@mixin link-underline-from-left-variant($color, $color-hover: $color) {
-    @extend %link-underline-from-left-base;
+@mixin link-underline-left-variant($color, $color-hover: $color) {
+    @extend %link-underline-left-base;
     color: $color;
 
     &:hover,

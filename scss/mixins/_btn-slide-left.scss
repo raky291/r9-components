@@ -1,10 +1,10 @@
-// Sweep to Right
+// Slide from Left
 
-%btn-sweep-to-right-base {
+%btn-slide-left-base {
     position: relative;
     z-index: $zindex-animation;
     display: inline-block;
-    transition: $btn-sweep-to-right-transition;
+    transition: $btn-slide-left-transition;
 
     &::before {
         position: absolute;
@@ -14,7 +14,7 @@
         left: 0;
         z-index: -1;
         content: '';
-        transition: $btn-sweep-to-right-transition;
+        transition: $btn-slide-left-transition;
         transform: scaleX(0);
         transform-origin: 0 50%;
     }
@@ -29,14 +29,14 @@
     }
 }
 
-@mixin btn-sweep-to-right-variant(
+@mixin btn-slide-left-variant(
     $color,
     $color-hover: color-yiq($color),
     $active-background: $color,
     $active-border: $color,
     $active-color: color-yiq($active-background)
 ) {
-    @extend %btn-sweep-to-right-base;
+    @extend %btn-slide-left-base;
     color: $color;
     border-color: $color;
 
