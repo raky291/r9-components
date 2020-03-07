@@ -1,13 +1,13 @@
-// Animations
+// Animation
 
-// @each $color, $value in $theme-colors {
-//     .btn-sweep-to-right-#{$color} {
-//         @include btn-sweep-to-right-variant($value);
-//     }
-// }
+@each $color, $value in $theme-colors {
+    .btn-slide-left-#{$color} {
+        @include btn-slide-left-variant($value);
+    }
+}
 
-// @each $color, $value in $theme-colors {
-//     .link-underline-from-left-#{$color} {
-//         @include link-underline-from-left-variant($value);
-//     }
-// }
+@each $color, $value in $theme-colors {
+    .link-underline-left-#{$color} {
+        @include link-underline-left-variant($value);
+    }
+}
