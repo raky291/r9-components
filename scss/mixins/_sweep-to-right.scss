@@ -40,13 +40,13 @@
     color: $color;
     border-color: $color;
 
+    &::before {
+        background-color: $active-background;
+    }
+
     &:hover {
         color: $color-hover;
         border-color: $active-border;
-
-        &::before {
-            background-color: $active-background;
-        }
     }
 
     &:focus,
@@ -59,10 +59,6 @@
     .show > &.dropdown-toggle {
         color: $active-color;
         border-color: $active-border;
-
-        &::before {
-            background-color: $active-background;
-        }
 
         &:focus {
             @if $enable-shadows and $btn-active-box-shadow != none {

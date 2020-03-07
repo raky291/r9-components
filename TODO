@@ -4,6 +4,7 @@
 2. rename animation components ?
 3. add border-color variable ?
 4. add new underline animation
++ 5. fix bug blur
 
 add utilities:
 - font sizes
