@@ -1,9 +1,9 @@
 -------------------------------------------------
 
-1. add important ? yes
-3. add border-color variable ?
 4. add new underline animation
-+ 2. rename animation components ?
++ 1. add important ? no
++ 2. rename animation components ? yes
++ 3. add border-color variable ? no
 + 5. fix bug blur
 
 add utilities:

@@ -11,3 +11,9 @@
         @include link-underline-left-variant($value);
     }
 }
+
+@each $color, $value in $theme-colors {
+    .link-underline-ltr-#{$color} {
+        @include link-underline-ltr-variant($value);
+    }
+}
