@@ -1,0 +1,80 @@
+// Slide from Corner
+
+%btn-slide-corner-base {
+    position: relative;
+    z-index: $zindex-animation;
+    display: inline-block;
+    transition: $btn-slide-corner-transition;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        content: '';
+        transition: $btn-slide-corner-transition;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+    }
+
+    &:hover,
+    &:active,
+    &.active,
+    .show > &.dropdown-toggle {
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+@mixin btn-slide-corner-variant(
+    $color,
+    $hover-color: color-yiq($color),
+    $active-background: $color,
+    $active-border: $color,
+    $active-color: color-yiq($active-background)
+) {
+    @extend %btn-slide-corner-base;
+    color: $color;
+    border-color: $color;
+
+    &::before {
+        background-color: $active-background;
+    }
+
+    &:hover {
+        color: $hover-color;
+        border-color: $active-border;
+    }
+
+    &:focus,
+    &.focus {
+        box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+    }
+
+    &:active,
+    &.active,
+    .show > &.dropdown-toggle {
+        color: $active-color;
+        border-color: $active-border;
+
+        &:focus {
+            @if $enable-shadows and $btn-active-box-shadow != none {
+                box-shadow: $btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($color, 0.5);
+            } @else {
+                box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+            }
+        }
+    }
+
+    &:disabled,
+    &.disabled {
+        color: $color;
+
+        &::before {
+            background-color: transparent;
+        }
+    }
+}

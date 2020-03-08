@@ -1,6 +1,12 @@
 // Animation
 
 @each $color, $value in $theme-colors {
+    .btn-slide-corner-#{$color} {
+        @include btn-slide-corner-variant($value);
+    }
+}
+
+@each $color, $value in $theme-colors {
     .btn-slide-left-#{$color} {
         @include btn-slide-left-variant($value);
     }
