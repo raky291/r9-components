@@ -1,16 +1,15 @@
 -------------------------------------------------
 
-4. add new underline animation
-+ 1. add important ? no
-+ 2. rename animation components ? yes
-+ 3. add border-color variable ? no
-+ 5. fix bug blur
+- update font color in footer section
+- update font size in footer section ?
+- update footer nav spacing and inputs ?
+- update services section
+- add about section
+- add gradient button
 
 add utilities:
 - font sizes
-- add font sizes in footer ?
-- more hover colors
-- apply colors to animations
+- remove hover colors
 
 -------------------------------------------------
 
