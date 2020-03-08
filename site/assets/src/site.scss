@@ -5,7 +5,10 @@
 $gray-100: #f8f9fa;
 $gray-800: #343a40;
 
-$secondary: #868686;
+// body
+
+$body-bg: #1f1f1f;
+$body-color: $gray-100;
 
 // typography
 
@@ -75,8 +78,6 @@ $navbar-light-hover-color: $gray-800;
 // home
 
 #hero-section {
-    background-color: #1f1f1f;
-
     .btn {
         padding: 1rem 4rem;
         font-size: $font-size-base * 0.75;
@@ -125,8 +126,6 @@ $navbar-light-hover-color: $gray-800;
 // }
 
 .footer {
-    background-color: #222;
-
     .border-top {
         border-color: #363636 !important;
     }

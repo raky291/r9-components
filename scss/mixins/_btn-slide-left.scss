@@ -4,6 +4,7 @@
     position: relative;
     z-index: $zindex-animation;
     display: inline-block;
+    overflow: hidden;
     transition: $btn-slide-left-transition;
 
     &::before {
