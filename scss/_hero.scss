@@ -6,7 +6,6 @@
     .hero-body {
         position: relative;
         z-index: $zindex-hero;
-        min-height: $hero-min-height-base;
     }
 
     .hero-bg {
@@ -17,7 +16,8 @@
         left: 0;
         overflow: hidden;
 
-        .hero-src {
+        img,
+        video {
             display: block;
             width: 100%;
             height: 100%;
@@ -31,15 +31,19 @@
         min-height: $hero-min-height-sm;
     }
 
+    &.hero-md {
+        min-height: $hero-min-height-md;
+    }
+
     &.hero-lg {
         min-height: $hero-min-height-lg;
     }
 
-    .hero-light {
-        background-color: $hero-light-bg;
+    .hero-bg-light {
+        background-color: $hero-bg-light;
     }
 
-    .hero-dark {
-        background-color: $hero-dark-bg;
+    .hero-bg-dark {
+        background-color: $hero-bg-dark;
     }
 }

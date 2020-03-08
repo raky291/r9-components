@@ -151,9 +151,9 @@ $footer-dark-text-color: $footer-dark-color !default;
 
 // Hero
 
-$hero-min-height-base: 600px !default;
-$hero-min-height-lg: 750px !default;
 $hero-min-height-sm: 450px !default;
+$hero-min-height-md: 600px !default;
+$hero-min-height-lg: 750px !default;
 
-$hero-light-bg: rgba($black, 0.25) !default;
-$hero-dark-bg: rgba($black, 0.5) !default;
+$hero-bg-light: rgba($black, 0.25) !default;
+$hero-bg-dark: rgba($black, 0.5) !default;
