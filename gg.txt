@@ -79,8 +79,10 @@ https://async.mx/
     Website structure:
     Navbar
     Cover
-    Subscribe
     Services
+    Steps
+    About
     Contact
+    Subscribe
     Footer
 -->
