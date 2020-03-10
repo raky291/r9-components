@@ -8,7 +8,7 @@ const DATA_API_KEY = '.data-api';
 
 const Default = {
     min: 200,
-    show: true
+    show: false
 };
 
 const Event = {
