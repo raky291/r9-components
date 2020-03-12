@@ -1,19 +1,20 @@
 -------------------------------------------------
 
-- remove font-weight from footer title
-
 - update animation scss variables
-- update font color in footer section
 - update font size in footer section ?
-- update footer nav spacing and inputs ?
-- add gradient button
-* update navbar script
-* update services section
-* add about section
 
 add utilities:
 - font sizes
 - remove hover colors
+
+- update footer nav spacing (ml-n3) and inputs (v2)
+- add gradient button (v2)
+
+* remove font-weight from footer title
+* update font color in footer section
+* update navbar script
+* update services section
+* add about section
 
 -------------------------------------------------
 
