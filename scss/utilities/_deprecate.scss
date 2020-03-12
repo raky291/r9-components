@@ -19,3 +19,23 @@
 .lh-lg {
     line-height: 2 !important;
 }
+
+.fz-xs {
+    font-size: $font-size-base * 0.75 !important;
+}
+
+.fz-sm {
+    font-size: $font-size-sm !important;
+}
+
+.fz-base {
+    font-size: $font-size-base !important;
+}
+
+.fz-lg {
+    font-size: $font-size-lg !important;
+}
+
+.fz-xl {
+    font-size: $font-size-base * 1.5 !important;
+}

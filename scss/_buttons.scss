@@ -1,23 +1,22 @@
 // Buttons
 
-%btn-circle-base {
+%btn-icon-base {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     padding: 0;
-    border-radius: 50%;
 }
 
-.btn-circle {
-    @extend %btn-circle-base;
-    width: $btn-circle-size;
-    height: $btn-circle-size;
-    font-size: $btn-circle-font-size;
+.btn-icon {
+    @extend %btn-icon-base;
+    width: $btn-icon-size;
+    height: $btn-icon-size;
+    font-size: $btn-icon-font-size;
 }
 
-.btn-circle-sm {
-    @extend %btn-circle-base;
-    width: $btn-circle-size-sm;
-    height: $btn-circle-size-sm;
-    font-size: $btn-circle-font-size-sm;
+.btn-icon-sm {
+    @extend %btn-icon-base;
+    width: $btn-icon-size-sm;
+    height: $btn-icon-size-sm;
+    font-size: $btn-icon-font-size-sm;
 }

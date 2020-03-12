@@ -1,15 +1,14 @@
 -------------------------------------------------
 
 - update animation scss variables
-- update font size in footer section ?
-
-add utilities:
-- font sizes
-- remove hover colors
 
 - update footer nav spacing (ml-n3) and inputs (v2)
 - add gradient button (v2)
 
+* change btn-circle => btn-icon
+* update font size in footer section
+* remove hover colors
+* add font sizes utilities
 * remove font-weight from footer title
 * update font color in footer section
 * update navbar script
