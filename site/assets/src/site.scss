@@ -26,8 +26,7 @@ $navbar-light-hover-color: $gray-800;
 
 // footer
 
-// $footer-dark-color: rgba($white, 0.5);
-// $footer-dark-hover-color: $white;
+$footer-dark-hover-color: $gray-100;
 
 // imports
 
@@ -104,7 +103,7 @@ $navbar-light-hover-color: $gray-800;
     }
 
     p {
-        max-width: 325px;
+        max-width: 350px;
     }
 
     .btn {
@@ -117,38 +116,6 @@ $navbar-light-hover-color: $gray-800;
 }
 
 // footer
-
-//     .btn {
-//         padding: 1rem 4rem;
-//         font-size: $font-size-base * 0.75;
-//         font-weight: $font-weight-bold;
-//         text-transform: uppercase;
-//         letter-spacing: 1px;
-//     }
-// }
-
-// #footer-section {
-//     transform: translateY(-60px);
-
-//     form {
-//         .form-control {
-//             height: 50px;
-//             color: $white;
-//             background-color: $gray-900;
-//             border-color: $gray-900;
-//             border-radius: 20px;
-//         }
-
-//         .btn {
-//             height: 50px;
-//             border-radius: $rounded-pill;
-//         }
-//     }
-// }
-
-// #legal-section {
-//     font-size: $font-size-base * 0.75;
-// }
 
 .footer {
     .border-top {
