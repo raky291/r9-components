@@ -74,8 +74,10 @@ $link-underline-ltr-transition: $animation-base !default;
 // Typography
 
 $font-size-base: 1rem !default;
+$font-size-xl: $font-size-base * 1.5 !default;
 $font-size-lg: $font-size-base * 1.25 !default;
 $font-size-sm: $font-size-base * 0.875 !default;
+$font-size-xs: $font-size-base * 0.75 !default;
 
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
@@ -128,6 +130,8 @@ $zindex-absolute: 1010 !default;
 
 $navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
+
+$navbar-spy-transition: $animation-base !default;
 
 // Footer
 

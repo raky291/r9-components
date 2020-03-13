@@ -1,7 +1,20 @@
 // Navbar
 
+.navbar-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-absolute;
+}
+
 .navbar-spy {
-    transition: $animation-slow;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
+    transition: $navbar-spy-transition;
     transform: translateY(-100%);
 
     &.show {
