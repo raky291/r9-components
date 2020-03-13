@@ -44,19 +44,19 @@ $footer-dark-hover-color: $gray-100;
 
 // navbar
 
-.navbar {
-    .nav-link {
-        font-size: $font-size-base * 0.75;
-        font-weight: $font-weight-bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+// .navbar {
+//     .nav-link {
+//         font-size: $font-size-base * 0.75;
+//         font-weight: $font-weight-bold;
+//         text-transform: uppercase;
+//         letter-spacing: 1px;
 
-        &.btn {
-            padding: 1rem 4rem;
-            margin-left: 2rem;
-        }
-    }
-}
+//         &.btn {
+//             padding: 1rem 4rem;
+//             margin-left: 2rem;
+//         }
+//     }
+// }
 
 .navbar-dark {
     height: 155px;
@@ -82,13 +82,13 @@ $footer-dark-hover-color: $gray-100;
         text-align: justify;
     }
 
-    .btn {
-        padding: 1rem 4rem;
-        font-size: $font-size-base * 0.75;
-        font-weight: $font-weight-bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+    // .btn {
+    //     padding: 1rem 4rem;
+    //     font-size: $font-size-base * 0.75;
+    //     font-weight: $font-weight-bold;
+    //     text-transform: uppercase;
+    //     letter-spacing: 1px;
+    // }
 
     .hero-bg {
         z-index: 200;
@@ -106,31 +106,29 @@ $footer-dark-hover-color: $gray-100;
         max-width: 350px;
     }
 
-    .btn {
-        padding: 1rem 4rem;
-        font-size: $font-size-base * 0.75;
-        font-weight: $font-weight-bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+    // .btn {
+    //     padding: 1rem 4rem;
+    //     font-size: $font-size-base * 0.75;
+    //     font-weight: $font-weight-bold;
+    //     text-transform: uppercase;
+    //     letter-spacing: 1px;
+    // }
 }
 
 // footer
 
-.footer {
-    .border-top {
-        border-color: #363636 !important;
-    }
+.footer .border-top {
+    border-color: #363636 !important;
 }
 
 #call-to-action-section {
     transform: translateY(-120px);
 
-    .btn {
-        padding: 1rem 4rem;
-        font-size: $font-size-base * 0.75;
-        font-weight: $font-weight-bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+    // .btn {
+    //     padding: 1rem 4rem;
+    //     font-size: $font-size-base * 0.75;
+    //     font-weight: $font-weight-bold;
+    //     text-transform: uppercase;
+    //     letter-spacing: 1px;
+    // }
 }
