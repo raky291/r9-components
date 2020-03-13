@@ -62,14 +62,14 @@ $container-max-widths: (
 
 // Animation
 
-$animation-base: all 0.3s ease-in-out !default;
-$animation-slow: all 0.5s ease-in-out !default;
-$animation-fast: all 0.1s ease-in-out !default;
+$animation-duration-base: 0.3s !default;
+$animation-duration-slow: 0.5s !default;
+$animation-duration-fast: 0.1s !default;
 
-$btn-slide-corner-transition: $animation-base !default;
-$btn-slide-left-transition: $animation-base !default;
-$link-underline-left-transition: $animation-base !default;
-$link-underline-ltr-transition: $animation-base !default;
+$btn-slide-corner-transition: all $animation-duration-base ease-in-out !default;
+$btn-slide-left-transition: all $animation-duration-base ease-in-out !default;
+$link-underline-left-transition: all $animation-duration-base ease-in-out !default;
+$link-underline-ltr-transition: all $animation-duration-base ease-in-out !default;
 
 // Typography
 
@@ -131,7 +131,7 @@ $zindex-absolute: 1010 !default;
 $navbar-padding-y: 0 !default;
 $navbar-padding-x: 0 !default;
 
-$navbar-spy-transition: $animation-base !default;
+$navbar-spy-transition: all $animation-duration-slow ease-in-out !default;
 
 // Footer
 
