@@ -1,11 +1,10 @@
 -------------------------------------------------
 
-- update navbar spy styles
-- update animation scss variables
-
 - update footer nav spacing (ml-n3) and inputs (v2)
 - add gradient button (v2)
 
+* update animation scss variables
+* update navbar spy styles
 * change btn-circle => btn-icon
 * update font size in footer section
 * remove hover colors
@@ -15,10 +14,10 @@
 * update navbar script
 * update services section
 * add about section
+* enable responsive font sizes
 
 -------------------------------------------------
 
-enable responsive font sizes
 qa responsive views
 
 https://rno1.com/privacy-policy

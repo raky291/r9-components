@@ -11,12 +11,12 @@
     @extend %btn-icon-base;
     width: $btn-icon-size;
     height: $btn-icon-size;
-    font-size: $btn-icon-font-size;
+    @include font-size($btn-icon-font-size);
 }
 
 .btn-icon-sm {
     @extend %btn-icon-base;
     width: $btn-icon-size-sm;
     height: $btn-icon-size-sm;
-    font-size: $btn-icon-font-size-sm;
+    @include font-size($btn-icon-font-size-sm);
 }

@@ -2,7 +2,7 @@
 
 .footer {
     .footer-title {
-        font-size: $footer-title-font-size;
+        @include font-size($footer-title-font-size);
     }
 
     .footer-text {

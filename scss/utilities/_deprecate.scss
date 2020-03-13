@@ -21,21 +21,21 @@
 }
 
 .fz-xs {
-    font-size: $font-size-xs !important;
+    @include font-size($font-size-xs, true);
 }
 
 .fz-sm {
-    font-size: $font-size-sm !important;
+    @include font-size($font-size-sm, true);
 }
 
 .fz-base {
-    font-size: $font-size-base !important;
+    @include font-size($font-size-base, true);
 }
 
 .fz-lg {
-    font-size: $font-size-lg !important;
+    @include font-size($font-size-lg, true);
 }
 
 .fz-xl {
-    font-size: $font-size-xl !important;
+    @include font-size($font-size-xl, true);
 }
