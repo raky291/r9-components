@@ -1,5 +1,6 @@
 -------------------------------------------------
 
+- qa responsive views
 - update footer nav spacing (ml-n3) and inputs (v2)
 - add gradient button (v2)
 
@@ -17,8 +18,6 @@
 * enable responsive font sizes
 
 -------------------------------------------------
-
-qa responsive views
 
 https://rno1.com/privacy-policy
 https://github.com/oneclick/rubyinstaller2/issues/96
