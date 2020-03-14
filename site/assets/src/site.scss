@@ -90,8 +90,18 @@ $footer-dark-hover-color: $gray-100;
     //     letter-spacing: 1px;
     // }
 
-    .hero-bg {
-        z-index: 200;
+    .hero {
+        .hero-bg {
+            z-index: 200;
+        }
+
+        @include media-breakpoint-up(md) {
+            max-width: 700px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            max-width: 600px;
+        }
     }
 }
 
@@ -122,7 +132,13 @@ $footer-dark-hover-color: $gray-100;
 }
 
 #call-to-action-section {
-    transform: translateY(-120px);
+    .hero {
+        transform: translateY(-60px);
+
+        @include media-breakpoint-up(xl) {
+            transform: translateY(-100px);
+        }
+    }
 
     // .btn {
     //     padding: 1rem 4rem;
