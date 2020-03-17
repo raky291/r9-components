@@ -133,11 +133,18 @@ $footer-dark-hover-color: $gray-100;
 
 #call-to-action-section {
     .hero {
-        transform: translateY(-60px);
+        @include media-breakpoint-up(sm) {
+            transform: translateY(-60px);
+        }
 
         @include media-breakpoint-up(xl) {
             transform: translateY(-100px);
         }
+    }
+
+    @include media-breakpoint-down(xs) {
+        padding-right: 0;
+        padding-left: 0;
     }
 
     // .btn {
@@ -147,4 +154,10 @@ $footer-dark-hover-color: $gray-100;
     //     text-transform: uppercase;
     //     letter-spacing: 1px;
     // }
+}
+
+#footer-section {
+    .form-control {
+        background-clip: inherit;
+    }
 }
