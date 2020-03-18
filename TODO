@@ -1,15 +1,15 @@
 -------------------------------------------------
 
 - navbar responsive (navbar fluid ?)
-- responsive services section
-- responsive about section
 - add btn lead
-- more spacing cta section
 
 - qa responsive views
-- update footer nav spacing (ml-n3) and inputs (v2)
 - add gradient button (v2)
 
+* responsive about section
+* responsive services section
+* more spacing cta section
+* update footer nav spacing (ml-n3) and inputs (v2)
 * update animation scss variables
 * update navbar spy styles
 * change btn-circle => btn-icon
