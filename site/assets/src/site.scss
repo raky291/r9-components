@@ -50,7 +50,6 @@ $footer-dark-hover-color: $gray-100;
 //         font-weight: $font-weight-bold;
 //         text-transform: uppercase;
 //         letter-spacing: 1px;
-
 //         &.btn {
 //             padding: 1rem 4rem;
 //             margin-left: 2rem;
@@ -58,8 +57,25 @@ $footer-dark-hover-color: $gray-100;
 //     }
 // }
 
+// .navbar-toggler {
+//     border: 2px solid transparent;
+//     border-color: #f8f9fa !important;
+//     &:focus,
+//     &.focus {
+//         outline: 0;
+//         box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+//     }
+// }
+
 .navbar-dark {
-    height: 155px;
+    .container {
+        padding-top: 3.25rem;
+        padding-bottom: 3.25rem;
+    }
+
+    // .navbar-collapse {
+    //     background-color: rgba($body-bg, 0.75);
+    // }
 
     .btn:hover {
         color: $gray-800 !important;
@@ -67,7 +83,10 @@ $footer-dark-hover-color: $gray-100;
 }
 
 .navbar-light {
-    height: 100px;
+    .container {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
 
     .btn:hover {
         color: $gray-100 !important;
@@ -76,50 +95,44 @@ $footer-dark-hover-color: $gray-100;
 
 // home
 
-#hero-section {
-    .hero {
-        .hero-bg {
-            z-index: 200;
-        }
+#hero-section .hero {
+    .hero-bg {
+        z-index: 200;
+    }
 
-        @include media-breakpoint-up(md) {
-            max-width: 700px;
-        }
+    @include media-breakpoint-up(md) {
+        max-width: 700px;
+    }
 
-        @include media-breakpoint-up(xl) {
-            max-width: 600px;
-        }
+    @include media-breakpoint-up(xl) {
+        max-width: 600px;
     }
 }
 
-#services-section {
-    .icon-wrapper img {
-        width: 144px;
+#services-section .icon-wrapper img {
+    width: 144px;
 
-        @include media-breakpoint-up(xl) {
-            width: 180px;
-        }
+    @include media-breakpoint-up(xl) {
+        width: 180px;
     }
 }
 
-#about-section {
-    .about-circle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+#about-section .about-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-        @include media-breakpoint-up(md) {
-            width: 548px;
-            height: 548px;
-            background-image: linear-gradient(322deg, #fff, rgba(255, 255, 255, 0));
-            border-radius: 50%;
-        }
+    @include media-breakpoint-up(md) {
+        width: 548px;
+        height: 548px;
+        background-image: linear-gradient(322deg, #fff, rgba(255, 255, 255, 0));
+        border-radius: 50%;
+    }
 
-        @include media-breakpoint-up(xl) {
-            width: 676px;
-            height: 676px;
-        }
+    @include media-breakpoint-up(xl) {
+        width: 676px;
+        height: 676px;
     }
 }
 
