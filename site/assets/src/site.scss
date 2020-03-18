@@ -92,6 +92,16 @@ $footer-dark-hover-color: $gray-100;
     }
 }
 
+#services-section {
+    .icon-wrapper img {
+        width: 144px;
+
+        @include media-breakpoint-up(xl) {
+            width: 180px;
+        }
+    }
+}
+
 #about-section {
     .about-circle {
         display: flex;
