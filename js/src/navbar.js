@@ -8,20 +8,20 @@ const DATA_API_KEY = '.data-api';
 
 const Default = {
     min: 200,
-    show: false
+    show: false,
 };
 
 const Event = {
     SCROLL: `scroll${EVENT_KEY}`,
-    LOAD_DATA_API: `load${EVENT_KEY}${DATA_API_KEY}`
+    LOAD_DATA_API: `load${EVENT_KEY}${DATA_API_KEY}`,
 };
 
 const ClassName = {
-    SHOW: 'show'
+    SHOW: 'show',
 };
 
 const Selector = {
-    DATA_SPY: '[data-spy="navbar"]'
+    DATA_SPY: '[data-spy="navbar"]',
 };
 
 class Navbar {
@@ -83,7 +83,7 @@ const instance = plugin(NAME, DATA_KEY, Navbar);
 
 $(window).on(Event.LOAD_DATA_API, () => {
     // eslint-disable-next-line func-names
-    $(Selector.DATA_SPY).each(function() {
+    $(Selector.DATA_SPY).each(function () {
         const $this = $(this);
         instance.call($this, $this.data());
     });

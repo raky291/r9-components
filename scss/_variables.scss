@@ -20,7 +20,7 @@ $spacers: (
     3: $spacer * 1,
     4: $spacer * 1.5,
     5: $spacer * 2,
-    6: $spacer * 3
+    6: $spacer * 3,
 ) !default;
 
 $spacers-y: (
@@ -37,7 +37,7 @@ $spacers-y: (
     17: $spacer * 16.25,
     18: $spacer * 17.5,
     19: $spacer * 18.75,
-    20: $spacer * 20
+    20: $spacer * 20,
 ) !default;
 
 // Grid breakpoints
@@ -48,7 +48,7 @@ $grid-breakpoints: (
     md: 768px,
     lg: 992px,
     xl: 1200px,
-    xx: 1634px
+    xx: 1634px,
 ) !default;
 
 // Grid containers
@@ -58,7 +58,7 @@ $container-max-widths: (
     md: 90%,
     lg: 90%,
     xl: 90%,
-    xx: 1470px
+    xx: 1470px,
 ) !default;
 
 // Animation

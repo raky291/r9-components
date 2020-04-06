@@ -2,9 +2,9 @@ import $ from 'jquery';
 
 function plugin(name, key, component) {
     // eslint-disable-next-line func-names
-    const instance = function(option) {
+    const instance = function (option) {
         // eslint-disable-next-line func-names
-        return this.each(function() {
+        return this.each(function () {
             let data = $(this).data(key);
             const options = typeof option === 'object' && option;
 
