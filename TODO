@@ -1,5 +1,9 @@
 -------------------------------------------------
 
+- add bs setTransitioning
+
+-------------------------------------------------
+
 - set background color in mobile views
 - create navbar md absolute and navbar md spy ?
 - navbar paddings, toggler effects, background colors ?

@@ -48,7 +48,7 @@ $grid-breakpoints: (
     md: 768px,
     lg: 992px,
     xl: 1200px,
-    xx: 1634px,
+    xxl: 1634px,
 ) !default;
 
 // Grid containers
@@ -58,7 +58,7 @@ $container-max-widths: (
     md: 90%,
     lg: 90%,
     xl: 90%,
-    xx: 1470px,
+    xxl: 1470px,
 ) !default;
 
 // Animation
@@ -123,13 +123,20 @@ $btn-icon-font-size-sm: 1.25rem !default;
 
 // Z-index
 
-$zindex-hero: 100 !default;
-$zindex-animation: 200 !default;
-$zindex-absolute: 1010 !default;
+$zindex-hero: 1000 !default;
+$zindex-animation: 1010 !default;
+$zindex-dropdown: 1020 !default;
+$zindex-absolute: 1030 !default;
+$zindex-sticky: 1040 !default;
+$zindex-fixed: 1050 !default;
+$zindex-modal-backdrop: 1060 !default;
+$zindex-modal: 1070 !default;
+$zindex-popover: 1080 !default;
+$zindex-tooltip: 1090 !default;
 
 // Navbar
 
-$navbar-padding-y: 0 !default;
+$navbar-padding-y: 1.5rem !default;
 $navbar-padding-x: 0 !default;
 
 $navbar-spy-transition: all $animation-duration-slow ease-in-out !default;
