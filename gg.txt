@@ -1,14 +1,13 @@
 -------------------------------------------------
 
-navbar
-
+https://bootstrap-menu.com/
 https://themes.getbootstrap.com/preview/?theme_id=3569
 https://themes.getbootstrap.com/preview/?theme_id=19860
 https://themes.getbootstrap.com/preview/?theme_id=1679
-
 https://themes.getbootstrap.com/preview/?theme_id=7340 (don't do it)
-
-https://themes.getbootstrap.com/product/quick-website-ui-kit-2/ (cool docs)
+https://getbootstrap.com/docs/4.4/examples/product/
+https://preview.webpixels.io/quick-website-ui-kit/docs/index.html
+https://level-template.webflow.io/
 
 -------------------------------------------------
 
@@ -16,11 +15,6 @@ https://www.dealerspike.com/
 https://powerdigitalmarketing.com/
 https://www.emotedigital.com.au/
 https://www.jastmedia.com/
-
--------------------------------------------------
-
-https://preview.webpixels.io/quick-website-ui-kit/docs/index.html
-https://www.pexels.com/video/waves-crashing-1390942/
 
 -------------------------------------------------
 
@@ -57,7 +51,6 @@ https://www.memberstack.io/
 <!-- Footer -->
 <!-- https://www.pluralsight.com/ -->
 <!-- https://github.com/ -->
-https://level-template.webflow.io/
 
 <!-- Container -->
 <!-- https://visualstudio.microsoft.com/ -->
