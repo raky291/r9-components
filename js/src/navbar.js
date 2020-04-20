@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import plugin from './plugin';
+import jQueryPlugin from './jQueryPlugin';
 
 const NAME = 'navbar';
 const DATA_KEY = `r9.${NAME}`;
@@ -79,12 +79,12 @@ class Navbar {
     }
 }
 
-const instance = plugin(NAME, DATA_KEY, Navbar);
+const jQueryInterface = jQueryPlugin(NAME, DATA_KEY, Navbar);
 
 $(window).on(Event.LOAD_DATA_API, () => {
     // eslint-disable-next-line func-names
     $(Selector.DATA_SPY).each(function () {
         const $this = $(this);
-        instance.call($this, $this.data());
+        jQueryInterface.call($this, $this.data());
     });
 });
