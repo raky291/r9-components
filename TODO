@@ -4,14 +4,18 @@
 
 -------------------------------------------------
 
-- set background color in mobile views
-- create navbar md absolute and navbar md spy ?
-- navbar paddings, toggler effects, background colors ?
-- navbar responsive (navbar fluid ?)
-
+- change navbar collapse to off canvas
+- auto hide navbar on scroll down
+- use normal footer links
+- add effect on about section ?
 - add btn lead
 - add gradient button (v2)
+- clean the hero component
 
+* set background color in mobile views
+* create navbar md absolute and navbar md spy ? (absolute-top)
+* navbar paddings, toggler effects, background colors ? (variables)
+* navbar responsive (navbar fluid ?) (default)
 * qa responsive views
 * responsive about section
 * responsive services section
