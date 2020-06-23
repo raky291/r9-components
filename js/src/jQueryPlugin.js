@@ -6,7 +6,7 @@ function jQueryPlugin(name, key, component) {
     const jQueryInterface = function (option) {
         return this.each(function () {
             let data = $(this).data(key);
-            const options = typeof option === 'object' && option;
+            const options = typeof option === 'object' && option ? option : {};
 
             if (!data) {
                 data = new component(this, options);

@@ -1,7 +1,15 @@
+// Abstracts
 @import 'mixins';
+
+// Components
 @import 'buttons';
 @import 'footer';
 @import 'hero';
 @import 'navbar';
-@import 'utilities';
+@import 'offcanvas';
+
+// Helpers
 @import 'helpers';
+
+// Utilities
+@import 'utilities';
